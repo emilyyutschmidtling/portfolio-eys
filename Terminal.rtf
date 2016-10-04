@@ -1,0 +1,1699 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;\red178\green178\blue178;\red133\green0\blue2;\red255\green255\blue11;
+\red192\green192\blue192;\red46\green174\blue187;\red180\green36\blue25;\red47\green180\blue29;\red153\green153\blue153;
+\red230\green229\blue229;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf0 \CocoaLigature0 Last login: Sun Sep 18 03:05:28 on ttys002\
+\cf2 \cb3  GA\cb0  General Assembly \cf0 \cb4  Web Development Immersive \cb1 \
+------------------------------------------\
+git version 2.9.1\
+Homebrew 0.9.9 (git revision 3820; last commit 2016-08-04) Homebrew/homebrew-core (git revision 9476; last commit 2016-08-04)\
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin15]\
+node v6.3.0\
+psql (PostgreSQL) 9.5.3\
+------------------------------------------\
+type 
+\f1\b unwelcome
+\f0\b0  to remove this message\
+\cf5 eyschmidtling\cf6  ~\cf0 \
+\cf5 $ \cf0 workspace \
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace\cf0 \
+\cf5 $ \cf0 cd outcomes/\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes\cf0 \
+\cf5 $ \cf0 mkdir eys-portfolio\
+gmkdir: created directory 'eys-portfolio'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes\cf0 \
+\cf5 $ \cf0 cd eys-portfolio/\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf0 \
+\cf5 $ \cf0 echo "# eys-portfolio" >> README.md\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf0 \
+\cf5 $ \cf0 git init\
+Initialized empty Git repository in /Users/eyschmidtling/code/wdi/workspace/outcomes/eys-portfolio/.git/\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 [\cf7 ?\cf0 ]\
+\cf5 $ \cf0 git add README.md\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 [+]\
+\cf5 $ \cf0 git commit -m "first commit"\
+[master (root-commit) e761cf9] first commit\
+ 1 file changed, 1 insertion(+)\
+ create mode 100644 README.md\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git remote add origin https://github.com/emilyyutschmidtling/eys-portfolio.git\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git push -u origin master\
+Username for 'https://github.com': ^[^[^[\
+Password for 'https://github.com': \
+remote: Invalid username or password.\
+fatal: Authentication failed for 'https://github.com/emilyyutschmidtling/eys-portfolio.git/'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 cd ..\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes\cf0 \
+\cf5 $ \cf0 rm -rf eys-portfolio/\
+removed 'eys-portfolio/.git/COMMIT_EDITMSG'\
+removed 'eys-portfolio/.git/config'\
+removed 'eys-portfolio/.git/description'\
+removed 'eys-portfolio/.git/HEAD'\
+removed 'eys-portfolio/.git/hooks/applypatch-msg.sample'\
+removed 'eys-portfolio/.git/hooks/commit-msg.sample'\
+removed 'eys-portfolio/.git/hooks/post-update.sample'\
+removed 'eys-portfolio/.git/hooks/pre-applypatch.sample'\
+removed 'eys-portfolio/.git/hooks/pre-commit.sample'\
+removed 'eys-portfolio/.git/hooks/pre-push.sample'\
+removed 'eys-portfolio/.git/hooks/pre-rebase.sample'\
+removed 'eys-portfolio/.git/hooks/prepare-commit-msg.sample'\
+removed 'eys-portfolio/.git/hooks/update.sample'\
+removed directory 'eys-portfolio/.git/hooks'\
+removed 'eys-portfolio/.git/index'\
+removed 'eys-portfolio/.git/info/exclude'\
+removed directory 'eys-portfolio/.git/info'\
+removed 'eys-portfolio/.git/logs/HEAD'\
+removed 'eys-portfolio/.git/logs/refs/heads/master'\
+removed directory 'eys-portfolio/.git/logs/refs/heads'\
+removed directory 'eys-portfolio/.git/logs/refs'\
+removed directory 'eys-portfolio/.git/logs'\
+removed 'eys-portfolio/.git/objects/6c/3c59ccd6cfb1e78d987729c998813904219eef'\
+removed directory 'eys-portfolio/.git/objects/6c'\
+removed 'eys-portfolio/.git/objects/88/1c3d9eeb427c773d98180ba19f3eab303013ef'\
+removed directory 'eys-portfolio/.git/objects/88'\
+removed 'eys-portfolio/.git/objects/e7/61cf993f3ca68df1ad42cf263b80b6464d665e'\
+removed directory 'eys-portfolio/.git/objects/e7'\
+removed directory 'eys-portfolio/.git/objects/info'\
+removed directory 'eys-portfolio/.git/objects/pack'\
+removed directory 'eys-portfolio/.git/objects'\
+removed 'eys-portfolio/.git/refs/heads/master'\
+removed directory 'eys-portfolio/.git/refs/heads'\
+removed directory 'eys-portfolio/.git/refs/tags'\
+removed directory 'eys-portfolio/.git/refs'\
+removed directory 'eys-portfolio/.git'\
+removed 'eys-portfolio/README.md'\
+removed directory 'eys-portfolio/'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes\cf0 \
+\cf5 $ \cf0 ls\
+' Notes 091316 - Job Search Fdns'\
+'EYSchmidtling Resume - REV 19Jul11.pdf'\
+'Elevator Speech.rtf'\
+GA_Outcomes_Materials/\
+'How to Coding Interview.pdf'\
+'Jekyll Repo Github Token.rtf'\
+'Key Learnings at GA.rtf'\
+'Notes 090216'\
+'Notes 091416 - Negotiation'\
+'Notes 091516 - Interviewing'\
+'Notes081916_resumes&coverLetters.rtf'\
+'PDI PC Job Descriptions.rtf'\
+README.md\
+'USC CEO Job Description.pdf'\
+'USC CEO Job Description.rtfd'/\
+job_skills_inventory.rtf\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes\cf0 \
+\cf5 $ \cf0 mkdir eys-portfolio\
+gmkdir: created directory 'eys-portfolio'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes\cf0 \
+\cf5 $ \cf0 cd eys-portfolio/\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf0 \
+\cf5 $ \cf0 echo "# eys-portfolio" >> README.md\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf0 \
+\cf5 $ \cf0 git init\
+Initialized empty Git repository in /Users/eyschmidtling/code/wdi/workspace/outcomes/eys-portfolio/.git/\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 [\cf7 ?\cf0 ]\
+\cf5 $ \cf0 git add README.md\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 [+]\
+\cf5 $ \cf0 git commit -m "first commit"\
+[master (root-commit) bfcc15c] first commit\
+ 1 file changed, 1 insertion(+)\
+ create mode 100644 README.md\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git remote add origin git@github.com:emilyyutschmidtling/eys-portfolio.git\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git push -u origin master\
+Counting objects: 3, done.\
+Writing objects: 100% (3/3), 236 bytes | 0 bytes/s, done.\
+Total 3 (delta 0), reused 0 (delta 0)\
+To git@github.com:emilyyutschmidtling/eys-portfolio.git\
+ * [new branch]      master -> master\
+Branch master set up to track remote branch master from origin.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 atom .\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git add -A\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 [+]\
+\cf5 $ \cf0 git commit -m "adds CNAME file and bootstrap template"\
+[master 8dccb99] adds CNAME file and bootstrap template\
+ 78 files changed, 31332 insertions(+), 1 deletion(-)\
+ create mode 100644 CNAME\
+ create mode 100755 LICENSE\
+ rewrite README.md (100%)\
+ mode change 100644 => 100755\
+ create mode 100755 css/creative.css\
+ create mode 100755 css/creative.min.css\
+ create mode 100755 gulpfile.js\
+ create mode 100755 img/header.jpg\
+ create mode 100755 img/portfolio/fullsize/1.jpg\
+ create mode 100755 img/portfolio/fullsize/2.jpg\
+ create mode 100755 img/portfolio/fullsize/3.jpg\
+ create mode 100755 img/portfolio/fullsize/4.jpg\
+ create mode 100755 img/portfolio/fullsize/5.jpg\
+ create mode 100755 img/portfolio/fullsize/6.jpg\
+ create mode 100755 img/portfolio/thumbnails/1.jpg\
+ create mode 100755 img/portfolio/thumbnails/2.jpg\
+ create mode 100755 img/portfolio/thumbnails/3.jpg\
+ create mode 100755 img/portfolio/thumbnails/4.jpg\
+ create mode 100755 img/portfolio/thumbnails/5.jpg\
+ create mode 100755 img/portfolio/thumbnails/6.jpg\
+ create mode 100755 index.html\
+ create mode 100755 js/creative.js\
+ create mode 100755 js/creative.min.js\
+ create mode 100755 less/creative.less\
+ create mode 100755 less/mixins.less\
+ create mode 100755 less/variables.less\
+ create mode 100755 package.json\
+ create mode 100755 vendor/bootstrap/css/bootstrap.css\
+ create mode 100755 vendor/bootstrap/css/bootstrap.min.css\
+ create mode 100755 vendor/bootstrap/fonts/glyphicons-halflings-regular.eot\
+ create mode 100755 vendor/bootstrap/fonts/glyphicons-halflings-regular.svg\
+ create mode 100755 vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf\
+ create mode 100755 vendor/bootstrap/fonts/glyphicons-halflings-regular.woff\
+ create mode 100755 vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2\
+ create mode 100755 vendor/bootstrap/js/bootstrap.js\
+ create mode 100755 vendor/bootstrap/js/bootstrap.min.js\
+ create mode 100755 vendor/font-awesome/css/font-awesome.css\
+ create mode 100755 vendor/font-awesome/css/font-awesome.min.css\
+ create mode 100755 vendor/font-awesome/fonts/FontAwesome.otf\
+ create mode 100755 vendor/font-awesome/fonts/fontawesome-webfont.eot\
+ create mode 100755 vendor/font-awesome/fonts/fontawesome-webfont.svg\
+ create mode 100755 vendor/font-awesome/fonts/fontawesome-webfont.ttf\
+ create mode 100755 vendor/font-awesome/fonts/fontawesome-webfont.woff\
+ create mode 100755 vendor/font-awesome/fonts/fontawesome-webfont.woff2\
+ create mode 100755 vendor/font-awesome/less/animated.less\
+ create mode 100755 vendor/font-awesome/less/bordered-pulled.less\
+ create mode 100755 vendor/font-awesome/less/core.less\
+ create mode 100755 vendor/font-awesome/less/fixed-width.less\
+ create mode 100755 vendor/font-awesome/less/font-awesome.less\
+ create mode 100755 vendor/font-awesome/less/icons.less\
+ create mode 100755 vendor/font-awesome/less/larger.less\
+ create mode 100755 vendor/font-awesome/less/list.less\
+ create mode 100755 vendor/font-awesome/less/mixins.less\
+ create mode 100755 vendor/font-awesome/less/path.less\
+ create mode 100755 vendor/font-awesome/less/rotated-flipped.less\
+ create mode 100755 vendor/font-awesome/less/screen-reader.less\
+ create mode 100755 vendor/font-awesome/less/stacked.less\
+ create mode 100755 vendor/font-awesome/less/variables.less\
+ create mode 100755 vendor/font-awesome/scss/_animated.scss\
+ create mode 100755 vendor/font-awesome/scss/_bordered-pulled.scss\
+ create mode 100755 vendor/font-awesome/scss/_core.scss\
+ create mode 100755 vendor/font-awesome/scss/_fixed-width.scss\
+ create mode 100755 vendor/font-awesome/scss/_icons.scss\
+ create mode 100755 vendor/font-awesome/scss/_larger.scss\
+ create mode 100755 vendor/font-awesome/scss/_list.scss\
+ create mode 100755 vendor/font-awesome/scss/_mixins.scss\
+ create mode 100755 vendor/font-awesome/scss/_path.scss\
+ create mode 100755 vendor/font-awesome/scss/_rotated-flipped.scss\
+ create mode 100755 vendor/font-awesome/scss/_screen-reader.scss\
+ create mode 100755 vendor/font-awesome/scss/_stacked.scss\
+ create mode 100755 vendor/font-awesome/scss/_variables.scss\
+ create mode 100755 vendor/font-awesome/scss/font-awesome.scss\
+ create mode 100755 vendor/jquery/jquery.js\
+ create mode 100755 vendor/jquery/jquery.min.js\
+ create mode 100755 vendor/magnific-popup/jquery.magnific-popup.js\
+ create mode 100755 vendor/magnific-popup/jquery.magnific-popup.min.js\
+ create mode 100755 vendor/magnific-popup/magnific-popup.css\
+ create mode 100755 vendor/scrollreveal/scrollreveal.js\
+ create mode 100755 vendor/scrollreveal/scrollreveal.min.js\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git push origin master\
+Counting objects: 93, done.\
+Delta compression using up to 4 threads.\
+Compressing objects: 100% (93/93), done.\
+Writing objects: 100% (93/93), 1.31 MiB | 1.44 MiB/s, done.\
+Total 93 (delta 2), reused 0 (delta 0)\
+remote: Resolving deltas: 100% (2/2), done.\
+To git@github.com:emilyyutschmidtling/eys-portfolio.git\
+   bfcc15c..8dccb99  master -> master\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git checkout -b gh-pages\
+Switched to a new branch 'gh-pages'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git push origin gh-pages \
+Total 0 (delta 0), reused 0 (delta 0)\
+To git@github.com:emilyyutschmidtling/eys-portfolio.git\
+ * [new branch]      gh-pages -> gh-pages\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git checkout master\
+Switched to branch 'master'\
+Your branch is up-to-date with 'origin/master'.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git add -A\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 [+]\
+\cf5 $ \cf0 git commit -m "reverses order of entries in CNAME file"\
+[master e323bec] reverses order of entries in CNAME file\
+ 1 file changed, 1 insertion(+), 1 deletion(-)\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git checkout gh-pages \
+Switched to branch 'gh-pages'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git push origin gh-pages \
+To git@github.com:emilyyutschmidtling/eys-portfolio.git\
+ ! [rejected]        gh-pages -> gh-pages (fetch first)\
+error: failed to push some refs to 'git@github.com:emilyyutschmidtling/eys-portfolio.git'\
+hint: Updates were rejected because the remote contains work that you do\
+hint: not have locally. This is usually caused by another repository pushing\
+hint: to the same ref. You may want to first integrate the remote changes\
+hint: (e.g., 'git pull ...') before pushing again.\
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git checkout master\
+Switched to branch 'master'\
+Your branch is ahead of 'origin/master' by 1 commit.\
+  (use "git push" to publish your local commits)\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git push origin master\
+Counting objects: 3, done.\
+Delta compression using up to 4 threads.\
+Compressing objects: 100% (3/3), done.\
+Writing objects: 100% (3/3), 330 bytes | 0 bytes/s, done.\
+Total 3 (delta 1), reused 0 (delta 0)\
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.\
+To git@github.com:emilyyutschmidtling/eys-portfolio.git\
+   8dccb99..e323bec  master -> master\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git checkout gh-pages \
+Switched to branch 'gh-pages'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git push origin gh-pages \
+To git@github.com:emilyyutschmidtling/eys-portfolio.git\
+ ! [rejected]        gh-pages -> gh-pages (fetch first)\
+error: failed to push some refs to 'git@github.com:emilyyutschmidtling/eys-portfolio.git'\
+hint: Updates were rejected because the remote contains work that you do\
+hint: not have locally. This is usually caused by another repository pushing\
+hint: to the same ref. You may want to first integrate the remote changes\
+hint: (e.g., 'git pull ...') before pushing again.\
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git checkout master\
+Switched to branch 'master'\
+Your branch is up-to-date with 'origin/master'.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys-portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 cd ..\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes\cf0 \
+\cf5 $ \cf0 rm -rf eys-portfolio/\
+removed 'eys-portfolio/.git/COMMIT_EDITMSG'\
+removed 'eys-portfolio/.git/config'\
+removed 'eys-portfolio/.git/description'\
+removed 'eys-portfolio/.git/HEAD'\
+removed 'eys-portfolio/.git/hooks/applypatch-msg.sample'\
+removed 'eys-portfolio/.git/hooks/commit-msg.sample'\
+removed 'eys-portfolio/.git/hooks/post-update.sample'\
+removed 'eys-portfolio/.git/hooks/pre-applypatch.sample'\
+removed 'eys-portfolio/.git/hooks/pre-commit.sample'\
+removed 'eys-portfolio/.git/hooks/pre-push.sample'\
+removed 'eys-portfolio/.git/hooks/pre-rebase.sample'\
+removed 'eys-portfolio/.git/hooks/prepare-commit-msg.sample'\
+removed 'eys-portfolio/.git/hooks/update.sample'\
+removed directory 'eys-portfolio/.git/hooks'\
+removed 'eys-portfolio/.git/index'\
+removed 'eys-portfolio/.git/info/exclude'\
+removed directory 'eys-portfolio/.git/info'\
+removed 'eys-portfolio/.git/logs/HEAD'\
+removed 'eys-portfolio/.git/logs/refs/heads/gh-pages'\
+removed 'eys-portfolio/.git/logs/refs/heads/master'\
+removed directory 'eys-portfolio/.git/logs/refs/heads'\
+removed 'eys-portfolio/.git/logs/refs/remotes/origin/gh-pages'\
+removed 'eys-portfolio/.git/logs/refs/remotes/origin/master'\
+removed directory 'eys-portfolio/.git/logs/refs/remotes/origin'\
+removed directory 'eys-portfolio/.git/logs/refs/remotes'\
+removed directory 'eys-portfolio/.git/logs/refs'\
+removed directory 'eys-portfolio/.git/logs'\
+removed 'eys-portfolio/.git/objects/07/a6d176ccbfde992b9281a53dd350167a694628'\
+removed directory 'eys-portfolio/.git/objects/07'\
+removed 'eys-portfolio/.git/objects/0b/440382f61f0bb1683e5b15c2a00e4e398f9980'\
+removed directory 'eys-portfolio/.git/objects/0b'\
+removed 'eys-portfolio/.git/objects/0d/f8fde8c18bc38a36b7e9e9f7ba179164d41407'\
+removed directory 'eys-portfolio/.git/objects/0d'\
+removed 'eys-portfolio/.git/objects/11/0289f2f4b5260ce04dd035408961f1e4f2785b'\
+removed 'eys-portfolio/.git/objects/11/ae2858ed51c5185333a017295867382d2f9ecf'\
+removed 'eys-portfolio/.git/objects/11/c188196d5ade55930b7b94fc5a1dd0f6d1a800'\
+removed directory 'eys-portfolio/.git/objects/11'\
+removed 'eys-portfolio/.git/objects/13/1dfdc2de848545b3a7602b796ab5cfc50e22a9'\
+removed directory 'eys-portfolio/.git/objects/13'\
+removed 'eys-portfolio/.git/objects/14/13fc609ab6f21774de0cb7e01360095584f65b'\
+removed directory 'eys-portfolio/.git/objects/14'\
+removed 'eys-portfolio/.git/objects/18/35d3b33daeda71873d6ca1f8bfa8ed76297434'\
+removed directory 'eys-portfolio/.git/objects/18'\
+removed 'eys-portfolio/.git/objects/19/d8c657bb8a537a53a1a917be57785c5caf6012'\
+removed directory 'eys-portfolio/.git/objects/19'\
+removed 'eys-portfolio/.git/objects/22/b83e95328a9cac9d93cf659025850484e6e365'\
+removed directory 'eys-portfolio/.git/objects/22'\
+removed 'eys-portfolio/.git/objects/23/08b14ca7c27e6ea02f874e9ab7456032a7d007'\
+removed directory 'eys-portfolio/.git/objects/23'\
+removed 'eys-portfolio/.git/objects/29/44344350f3fab4741095812606ecb48be18fab'\
+removed directory 'eys-portfolio/.git/objects/29'\
+removed 'eys-portfolio/.git/objects/2b/3381975e9e6ba8b0bf98ee86abf264ad158cb7'\
+removed directory 'eys-portfolio/.git/objects/2b'\
+removed 'eys-portfolio/.git/objects/3b/0862707b2bce677bde7819960174c6a49aad48'\
+removed directory 'eys-portfolio/.git/objects/3b'\
+removed 'eys-portfolio/.git/objects/41/e9a8184aa287c5970cc8415e3c5a6310dc9f79'\
+removed directory 'eys-portfolio/.git/objects/41'\
+removed 'eys-portfolio/.git/objects/44/692cc902078585121655d9590d3312cbe50cd5'\
+removed directory 'eys-portfolio/.git/objects/44'\
+removed 'eys-portfolio/.git/objects/4a/db29feec6042f17909771ecbadbcd3e0f59138'\
+removed directory 'eys-portfolio/.git/objects/4a'\
+removed 'eys-portfolio/.git/objects/51/2a3824be5d8e1b8dbf52b98ee3da5c7d4030c5'\
+removed directory 'eys-portfolio/.git/objects/51'\
+removed 'eys-portfolio/.git/objects/5a/0986dca9728f6b6e601433e36a0ec3a180e5df'\
+removed directory 'eys-portfolio/.git/objects/5a'\
+removed 'eys-portfolio/.git/objects/5e/71eb526944c9aa0efea7fdced564d7f4b1e6db'\
+removed directory 'eys-portfolio/.git/objects/5e'\
+removed 'eys-portfolio/.git/objects/61/67622cecfb5c0f04156363565e3d4109fc55c5'\
+removed directory 'eys-portfolio/.git/objects/61'\
+removed 'eys-portfolio/.git/objects/63/7426f0da6dcef3602d764d9e359dabb4a5a862'\
+removed directory 'eys-portfolio/.git/objects/63'\
+removed 'eys-portfolio/.git/objects/64/539b54c3751a6d9adb44c8e3a45ba5a73b77f0'\
+removed directory 'eys-portfolio/.git/objects/64'\
+removed 'eys-portfolio/.git/objects/65/f238740db087ef09b332e51a8b41bcc36bb3dd'\
+removed directory 'eys-portfolio/.git/objects/65'\
+removed 'eys-portfolio/.git/objects/66/ad52a5ba052ced428dcc7ec7016bc25438a2ca'\
+removed directory 'eys-portfolio/.git/objects/66'\
+removed 'eys-portfolio/.git/objects/6c/3c59ccd6cfb1e78d987729c998813904219eef'\
+removed directory 'eys-portfolio/.git/objects/6c'\
+removed 'eys-portfolio/.git/objects/6e/7483cf61b490c08ed644d6ef802c69472eb247'\
+removed 'eys-portfolio/.git/objects/6e/e3a3bd5b52860ea3e99fdf8633ad683943245e'\
+removed directory 'eys-portfolio/.git/objects/6e'\
+removed 'eys-portfolio/.git/objects/74/25ef85fc80ce6b035065906fc27490715e3733'\
+removed 'eys-portfolio/.git/objects/74/de548fa7a7a6a3be4a6820f6aa500a5880ecef'\
+removed directory 'eys-portfolio/.git/objects/74'\
+removed 'eys-portfolio/.git/objects/7a/9d4ab48590f848c14a880ce0aa2c7b2039d107'\
+removed directory 'eys-portfolio/.git/objects/7a'\
+removed 'eys-portfolio/.git/objects/7d/1e4d54d6c293333eb638aa56feba7b62e15564'\
+removed directory 'eys-portfolio/.git/objects/7d'\
+removed 'eys-portfolio/.git/objects/7e/b74fd127ee5eddf3b95fee6a20dc1684b0963b'\
+removed directory 'eys-portfolio/.git/objects/7e'\
+removed 'eys-portfolio/.git/objects/7f/c60fca78b6201f814da4b2906cae2b69ee9610'\
+removed directory 'eys-portfolio/.git/objects/7f'\
+removed 'eys-portfolio/.git/objects/82/243f238e6ec57c1020254de257a09f01ea3b8b'\
+removed directory 'eys-portfolio/.git/objects/82'\
+removed 'eys-portfolio/.git/objects/83/5be41f8151b6439f799be29ec7921af1b72593'\
+removed directory 'eys-portfolio/.git/objects/83'\
+removed 'eys-portfolio/.git/objects/84/708bed64c61a43fb88c171ae8e2e4934434589'\
+removed directory 'eys-portfolio/.git/objects/84'\
+removed 'eys-portfolio/.git/objects/85/61e181adf05fbc285c993cb4664872cd11453f'\
+removed directory 'eys-portfolio/.git/objects/85'\
+removed 'eys-portfolio/.git/objects/88/1c3d9eeb427c773d98180ba19f3eab303013ef'\
+removed directory 'eys-portfolio/.git/objects/88'\
+removed 'eys-portfolio/.git/objects/8a/020dbfff7822bf57c7217eafdaa4884b8aa943'\
+removed 'eys-portfolio/.git/objects/8a/2e99a535d47e5798b167d1074ae2c77cab21e7'\
+removed directory 'eys-portfolio/.git/objects/8a'\
+removed 'eys-portfolio/.git/objects/8b/3991a5158f66fa7e04e494cf77719ded2175df'\
+removed 'eys-portfolio/.git/objects/8b/66187fe067c3aa389ce8c98108f349ceae159c'\
+removed directory 'eys-portfolio/.git/objects/8b'\
+removed 'eys-portfolio/.git/objects/8d/ccb9953883800a07486f81dfcc167e8d9a99d4'\
+removed directory 'eys-portfolio/.git/objects/8d'\
+removed 'eys-portfolio/.git/objects/92/7b3c1f8065e5bf49cc61598323fd0bc983ab1d'\
+removed directory 'eys-portfolio/.git/objects/92'\
+removed 'eys-portfolio/.git/objects/94/fb5490a2ed10b2c69a4a567a4fd2e4f706d841'\
+removed directory 'eys-portfolio/.git/objects/94'\
+removed 'eys-portfolio/.git/objects/9b/27f8ea8f8da544b622a801c4a47f73e3865929'\
+removed 'eys-portfolio/.git/objects/9b/cd2fccaed9442f1460191d6670ca5e8e08520c'\
+removed 'eys-portfolio/.git/objects/9b/e6c5ea2b664acd57b5edbecd16c0af853a4ea6'\
+removed directory 'eys-portfolio/.git/objects/9b'\
+removed 'eys-portfolio/.git/objects/9e/612858f802245ddcbf59788a0db942224bab35'\
+removed directory 'eys-portfolio/.git/objects/9e'\
+removed 'eys-portfolio/.git/objects/a0/b879fa0006d7ad46c994024196228753d678b3'\
+removed directory 'eys-portfolio/.git/objects/a0'\
+removed 'eys-portfolio/.git/objects/a3/558fd09ca7cb968166d5445f4df1a0bc2d5a7e'\
+removed directory 'eys-portfolio/.git/objects/a3'\
+removed 'eys-portfolio/.git/objects/a5/a89ef97bcfa214b44b81d0cdb488cca416420e'\
+removed 'eys-portfolio/.git/objects/a5/f7489060c2f95229ac0b74b6ae6fd8eeb763d2'\
+removed directory 'eys-portfolio/.git/objects/a5'\
+removed 'eys-portfolio/.git/objects/ad/8d257458bf1b0f5bb37f863d1fe14713847f03'\
+removed directory 'eys-portfolio/.git/objects/ad'\
+removed 'eys-portfolio/.git/objects/ae/f7403660c9a2ccc02a264c62c6b105f7d8d532'\
+removed directory 'eys-portfolio/.git/objects/ae'\
+removed 'eys-portfolio/.git/objects/b1/9783766f9f23c40dbf38e7bdbc2e5b648e4db9'\
+removed directory 'eys-portfolio/.git/objects/b1'\
+removed 'eys-portfolio/.git/objects/b2/1a437ab70cc98cd2880d3b7c739576627586d7'\
+removed 'eys-portfolio/.git/objects/b2/21c98133a4d4a8449c848ccb69bf631d1c3e5d'\
+removed directory 'eys-portfolio/.git/objects/b2'\
+removed 'eys-portfolio/.git/objects/b9/3a4953fff68df523aa7656497ee339d6026d64'\
+removed 'eys-portfolio/.git/objects/b9/ee80c3d9705589abd2c76e9bdccf46e9b80b1d'\
+removed directory 'eys-portfolio/.git/objects/b9'\
+removed 'eys-portfolio/.git/objects/ba/21b222d6ff0e0f604d99acf34dca0ce2bd9066'\
+removed directory 'eys-portfolio/.git/objects/ba'\
+removed 'eys-portfolio/.git/objects/bb/457c23a8e4e0688ebd9383e34ab9f2b3acecab'\
+removed directory 'eys-portfolio/.git/objects/bb'\
+removed 'eys-portfolio/.git/objects/bd/4701bc1d44fcd8ec78bec0075a4f68e36c7139'\
+removed directory 'eys-portfolio/.git/objects/bd'\
+removed 'eys-portfolio/.git/objects/be/ef231d0e176a47375d93fb7365270eea52f7b4'\
+removed directory 'eys-portfolio/.git/objects/be'\
+removed 'eys-portfolio/.git/objects/bf/cc15cf305bbe23f47d6d8f62e21238ce0a7168'\
+removed directory 'eys-portfolio/.git/objects/bf'\
+removed 'eys-portfolio/.git/objects/c1/0bc722e9eb40dc1d4f081c80acbc5a41009874'\
+removed directory 'eys-portfolio/.git/objects/c1'\
+removed 'eys-portfolio/.git/objects/c2/989856137e1ef1ad4b63c0f8b9dd5b86b66c37'\
+removed directory 'eys-portfolio/.git/objects/c2'\
+removed 'eys-portfolio/.git/objects/c3/bbd5745d35bebda3e16ce18aeff7a4a0ce5ae1'\
+removed 'eys-portfolio/.git/objects/c3/eec985fde72e1663863cd302e3182c449ad1f0'\
+removed directory 'eys-portfolio/.git/objects/c3'\
+removed 'eys-portfolio/.git/objects/c4/4e5f466a0de31751b647118a55dd563478815f'\
+removed directory 'eys-portfolio/.git/objects/c4'\
+removed 'eys-portfolio/.git/objects/c5/77ac84a6a55ef39ff7f4e25d60c3977a902ed1'\
+removed directory 'eys-portfolio/.git/objects/c5'\
+removed 'eys-portfolio/.git/objects/c7/81f3ceecefb6f266821c7ac6332ea3d5ea0a84'\
+removed 'eys-portfolio/.git/objects/c7/b00d2ba8896fd29de846b19f89fcf0d56ad152'\
+removed directory 'eys-portfolio/.git/objects/c7'\
+removed 'eys-portfolio/.git/objects/c8/c0e5da5a6c5bb9685092fb30b21917546eb5a6'\
+removed directory 'eys-portfolio/.git/objects/c8'\
+removed 'eys-portfolio/.git/objects/c9/d646770e2186c73632cbe042d82d1d1acaa25b'\
+removed directory 'eys-portfolio/.git/objects/c9'\
+removed 'eys-portfolio/.git/objects/cd/87077058a73a025a34c0b80f966de50bdb371f'\
+removed directory 'eys-portfolio/.git/objects/cd'\
+removed 'eys-portfolio/.git/objects/d1/12e83023085ffd447058afeaa375b1252a1cdd'\
+removed directory 'eys-portfolio/.git/objects/d1'\
+removed 'eys-portfolio/.git/objects/d4/5776133ddb6fde17a65fe23a5a7002e8e07a4f'\
+removed 'eys-portfolio/.git/objects/d4/b85a02f24adad8890ad69f7a1db6c7e3ec8a7d'\
+removed 'eys-portfolio/.git/objects/d4/de13e832d567ff29c5b4e9561b8c370348cc9c'\
+removed 'eys-portfolio/.git/objects/d4/e9ea5fcb514f1e2e2063cb956be013b6c55cb3'\
+removed directory 'eys-portfolio/.git/objects/d4'\
+removed 'eys-portfolio/.git/objects/d8/df5e7705085c10bffc38376394907b7514aa99'\
+removed directory 'eys-portfolio/.git/objects/d8'\
+removed 'eys-portfolio/.git/objects/de/730d31d79c61aedcaa729131d650982229171b'\
+removed directory 'eys-portfolio/.git/objects/de'\
+removed 'eys-portfolio/.git/objects/e3/23becbf6d2207d2578e4bcf4496836ebcafa58'\
+removed directory 'eys-portfolio/.git/objects/e3'\
+removed 'eys-portfolio/.git/objects/e7/e8118bd451447730681a678787c08bf6ed499a'\
+removed directory 'eys-portfolio/.git/objects/e7'\
+removed 'eys-portfolio/.git/objects/e8/36475870da67f3c72f64777c6e0f37d9f4c87b'\
+removed directory 'eys-portfolio/.git/objects/e8'\
+removed 'eys-portfolio/.git/objects/e9/5176307253ab940df27c61b6430ea401e4b5fc'\
+removed directory 'eys-portfolio/.git/objects/e9'\
+removed 'eys-portfolio/.git/objects/ec/d77f0673078ef8a3a1765b3eeda2ef285df9a2'\
+removed directory 'eys-portfolio/.git/objects/ec'\
+removed 'eys-portfolio/.git/objects/ed/36df29797836f07633f6d546d93a5df3deb18b'\
+removed 'eys-portfolio/.git/objects/ed/3905e0e0c91d4ed7d8aa14412dffeb038745ff'\
+removed directory 'eys-portfolio/.git/objects/ed'\
+removed 'eys-portfolio/.git/objects/f1/c8ad75f52bbc6c84a6dc3a341fe39e8d3edfd4'\
+removed directory 'eys-portfolio/.git/objects/f1'\
+removed 'eys-portfolio/.git/objects/f2/21e50a2ef60738ba30932d834530cdfe55cb3e'\
+removed directory 'eys-portfolio/.git/objects/f2'\
+removed 'eys-portfolio/.git/objects/f4/27200dcb931da432f8777f7dca1c1171e8f8cf'\
+removed directory 'eys-portfolio/.git/objects/f4'\
+removed 'eys-portfolio/.git/objects/f6/a9d681be5b681c72d571f1a5192966c6360c1f'\
+removed 'eys-portfolio/.git/objects/f6/ba81475b92355723f0dc12767f715995a34162'\
+removed directory 'eys-portfolio/.git/objects/f6'\
+removed 'eys-portfolio/.git/objects/fa/55c9a04ad01179021d80706222149580d6e8ae'\
+removed directory 'eys-portfolio/.git/objects/fa'\
+removed 'eys-portfolio/.git/objects/fc/53fb0e7ab49594e1eac97208c32a290558efeb'\
+removed directory 'eys-portfolio/.git/objects/fc'\
+removed directory 'eys-portfolio/.git/objects/info'\
+removed directory 'eys-portfolio/.git/objects/pack'\
+removed directory 'eys-portfolio/.git/objects'\
+removed 'eys-portfolio/.git/refs/heads/gh-pages'\
+removed 'eys-portfolio/.git/refs/heads/master'\
+removed directory 'eys-portfolio/.git/refs/heads'\
+removed 'eys-portfolio/.git/refs/remotes/origin/gh-pages'\
+removed 'eys-portfolio/.git/refs/remotes/origin/master'\
+removed directory 'eys-portfolio/.git/refs/remotes/origin'\
+removed directory 'eys-portfolio/.git/refs/remotes'\
+removed directory 'eys-portfolio/.git/refs/tags'\
+removed directory 'eys-portfolio/.git/refs'\
+removed directory 'eys-portfolio/.git'\
+removed 'eys-portfolio/CNAME'\
+removed 'eys-portfolio/css/creative.css'\
+removed 'eys-portfolio/css/creative.min.css'\
+removed directory 'eys-portfolio/css'\
+removed 'eys-portfolio/gulpfile.js'\
+removed 'eys-portfolio/img/header.jpg'\
+removed 'eys-portfolio/img/portfolio/fullsize/1.jpg'\
+removed 'eys-portfolio/img/portfolio/fullsize/2.jpg'\
+removed 'eys-portfolio/img/portfolio/fullsize/3.jpg'\
+removed 'eys-portfolio/img/portfolio/fullsize/4.jpg'\
+removed 'eys-portfolio/img/portfolio/fullsize/5.jpg'\
+removed 'eys-portfolio/img/portfolio/fullsize/6.jpg'\
+removed directory 'eys-portfolio/img/portfolio/fullsize'\
+removed 'eys-portfolio/img/portfolio/thumbnails/1.jpg'\
+removed 'eys-portfolio/img/portfolio/thumbnails/2.jpg'\
+removed 'eys-portfolio/img/portfolio/thumbnails/3.jpg'\
+removed 'eys-portfolio/img/portfolio/thumbnails/4.jpg'\
+removed 'eys-portfolio/img/portfolio/thumbnails/5.jpg'\
+removed 'eys-portfolio/img/portfolio/thumbnails/6.jpg'\
+removed directory 'eys-portfolio/img/portfolio/thumbnails'\
+removed directory 'eys-portfolio/img/portfolio'\
+removed directory 'eys-portfolio/img'\
+removed 'eys-portfolio/index.html'\
+removed 'eys-portfolio/js/creative.js'\
+removed 'eys-portfolio/js/creative.min.js'\
+removed directory 'eys-portfolio/js'\
+removed 'eys-portfolio/less/creative.less'\
+removed 'eys-portfolio/less/mixins.less'\
+removed 'eys-portfolio/less/variables.less'\
+removed directory 'eys-portfolio/less'\
+removed 'eys-portfolio/LICENSE'\
+removed 'eys-portfolio/package.json'\
+removed 'eys-portfolio/README.md'\
+removed 'eys-portfolio/vendor/bootstrap/css/bootstrap.css'\
+removed 'eys-portfolio/vendor/bootstrap/css/bootstrap.min.css'\
+removed directory 'eys-portfolio/vendor/bootstrap/css'\
+removed 'eys-portfolio/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot'\
+removed 'eys-portfolio/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg'\
+removed 'eys-portfolio/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf'\
+removed 'eys-portfolio/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff'\
+removed 'eys-portfolio/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2'\
+removed directory 'eys-portfolio/vendor/bootstrap/fonts'\
+removed 'eys-portfolio/vendor/bootstrap/js/bootstrap.js'\
+removed 'eys-portfolio/vendor/bootstrap/js/bootstrap.min.js'\
+removed directory 'eys-portfolio/vendor/bootstrap/js'\
+removed directory 'eys-portfolio/vendor/bootstrap'\
+removed 'eys-portfolio/vendor/font-awesome/css/font-awesome.css'\
+removed 'eys-portfolio/vendor/font-awesome/css/font-awesome.min.css'\
+removed directory 'eys-portfolio/vendor/font-awesome/css'\
+removed 'eys-portfolio/vendor/font-awesome/fonts/fontawesome-webfont.eot'\
+removed 'eys-portfolio/vendor/font-awesome/fonts/fontawesome-webfont.svg'\
+removed 'eys-portfolio/vendor/font-awesome/fonts/fontawesome-webfont.ttf'\
+removed 'eys-portfolio/vendor/font-awesome/fonts/fontawesome-webfont.woff'\
+removed 'eys-portfolio/vendor/font-awesome/fonts/fontawesome-webfont.woff2'\
+removed 'eys-portfolio/vendor/font-awesome/fonts/FontAwesome.otf'\
+removed directory 'eys-portfolio/vendor/font-awesome/fonts'\
+removed 'eys-portfolio/vendor/font-awesome/less/animated.less'\
+removed 'eys-portfolio/vendor/font-awesome/less/bordered-pulled.less'\
+removed 'eys-portfolio/vendor/font-awesome/less/core.less'\
+removed 'eys-portfolio/vendor/font-awesome/less/fixed-width.less'\
+removed 'eys-portfolio/vendor/font-awesome/less/font-awesome.less'\
+removed 'eys-portfolio/vendor/font-awesome/less/icons.less'\
+removed 'eys-portfolio/vendor/font-awesome/less/larger.less'\
+removed 'eys-portfolio/vendor/font-awesome/less/list.less'\
+removed 'eys-portfolio/vendor/font-awesome/less/mixins.less'\
+removed 'eys-portfolio/vendor/font-awesome/less/path.less'\
+removed 'eys-portfolio/vendor/font-awesome/less/rotated-flipped.less'\
+removed 'eys-portfolio/vendor/font-awesome/less/screen-reader.less'\
+removed 'eys-portfolio/vendor/font-awesome/less/stacked.less'\
+removed 'eys-portfolio/vendor/font-awesome/less/variables.less'\
+removed directory 'eys-portfolio/vendor/font-awesome/less'\
+removed 'eys-portfolio/vendor/font-awesome/scss/_animated.scss'\
+removed 'eys-portfolio/vendor/font-awesome/scss/_bordered-pulled.scss'\
+removed 'eys-portfolio/vendor/font-awesome/scss/_core.scss'\
+removed 'eys-portfolio/vendor/font-awesome/scss/_fixed-width.scss'\
+removed 'eys-portfolio/vendor/font-awesome/scss/_icons.scss'\
+removed 'eys-portfolio/vendor/font-awesome/scss/_larger.scss'\
+removed 'eys-portfolio/vendor/font-awesome/scss/_list.scss'\
+removed 'eys-portfolio/vendor/font-awesome/scss/_mixins.scss'\
+removed 'eys-portfolio/vendor/font-awesome/scss/_path.scss'\
+removed 'eys-portfolio/vendor/font-awesome/scss/_rotated-flipped.scss'\
+removed 'eys-portfolio/vendor/font-awesome/scss/_screen-reader.scss'\
+removed 'eys-portfolio/vendor/font-awesome/scss/_stacked.scss'\
+removed 'eys-portfolio/vendor/font-awesome/scss/_variables.scss'\
+removed 'eys-portfolio/vendor/font-awesome/scss/font-awesome.scss'\
+removed directory 'eys-portfolio/vendor/font-awesome/scss'\
+removed directory 'eys-portfolio/vendor/font-awesome'\
+removed 'eys-portfolio/vendor/jquery/jquery.js'\
+removed 'eys-portfolio/vendor/jquery/jquery.min.js'\
+removed directory 'eys-portfolio/vendor/jquery'\
+removed 'eys-portfolio/vendor/magnific-popup/jquery.magnific-popup.js'\
+removed 'eys-portfolio/vendor/magnific-popup/jquery.magnific-popup.min.js'\
+removed 'eys-portfolio/vendor/magnific-popup/magnific-popup.css'\
+removed directory 'eys-portfolio/vendor/magnific-popup'\
+removed 'eys-portfolio/vendor/scrollreveal/scrollreveal.js'\
+removed 'eys-portfolio/vendor/scrollreveal/scrollreveal.min.js'\
+removed directory 'eys-portfolio/vendor/scrollreveal'\
+removed directory 'eys-portfolio/vendor'\
+removed directory 'eys-portfolio/'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes\cf0 \
+\cf5 $ \cf0 ls\
+' Notes 091316 - Job Search Fdns'\
+'EYSchmidtling Resume - REV 19Jul11.pdf'\
+'Elevator Speech.rtf'\
+GA_Outcomes_Materials/\
+'How to Coding Interview.pdf'\
+'Jekyll Repo Github Token.rtf'\
+'Key Learnings at GA.rtf'\
+'Notes 090216'\
+'Notes 091416 - Negotiation'\
+'Notes 091516 - Interviewing'\
+'Notes081916_resumes&coverLetters.rtf'\
+'PDI PC Job Descriptions.rtf'\
+README.md\
+'USC CEO Job Description.pdf'\
+'USC CEO Job Description.rtfd'/\
+job_skills_inventory.rtf\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes\cf0 \
+\cf5 $ \cf0 mkdir eys_portfolio\
+gmkdir: created directory 'eys_portfolio'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes\cf0 \
+\cf5 $ \cf0 cd eys_portfolio/\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf0 \
+\cf5 $ \cf0 echo "# eys_portfolio" >> README.md\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf0 \
+\cf5 $ \cf0 git init\
+Initialized empty Git repository in /Users/eyschmidtling/code/wdi/workspace/outcomes/eys_portfolio/.git/\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 [\cf7 ?\cf0 ]\
+\cf5 $ \cf0 git add README.md\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 [+]\
+\cf5 $ \cf0 git commit -m "first commit"\
+[master (root-commit) 073a7a7] first commit\
+ 1 file changed, 1 insertion(+)\
+ create mode 100644 README.md\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git remote add origin git@github.com:emilyyutschmidtling/eys_portfolio.git\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git push -u origin master\
+Counting objects: 3, done.\
+Writing objects: 100% (3/3), 237 bytes | 0 bytes/s, done.\
+Total 3 (delta 0), reused 0 (delta 0)\
+To git@github.com:emilyyutschmidtling/eys_portfolio.git\
+ * [new branch]      master -> master\
+Branch master set up to track remote branch master from origin.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 atom .\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 [!\cf7 ?\cf0 ]\
+\cf5 $ \cf0 git add -A\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 [+]\
+\cf5 $ \cf0 git status\
+On branch master\
+Your branch is up-to-date with 'origin/master'.\
+Changes to be committed:\
+  (use "git reset HEAD <file>..." to unstage)\
+\
+	\cf8 new file:   LICENSE\cf0 \
+	\cf8 modified:   README.md\cf0 \
+	\cf8 new file:   css/creative.css\cf0 \
+	\cf8 new file:   css/creative.min.css\cf0 \
+	\cf8 new file:   gulpfile.js\cf0 \
+	\cf8 new file:   img/header.jpg\cf0 \
+	\cf8 new file:   img/portfolio/fullsize/1.jpg\cf0 \
+	\cf8 new file:   img/portfolio/fullsize/2.jpg\cf0 \
+	\cf8 new file:   img/portfolio/fullsize/3.jpg\cf0 \
+	\cf8 new file:   img/portfolio/fullsize/4.jpg\cf0 \
+	\cf8 new file:   img/portfolio/fullsize/5.jpg\cf0 \
+	\cf8 new file:   img/portfolio/fullsize/6.jpg\cf0 \
+	\cf8 new file:   img/portfolio/thumbnails/1.jpg\cf0 \
+	\cf8 new file:   img/portfolio/thumbnails/2.jpg\cf0 \
+	\cf8 new file:   img/portfolio/thumbnails/3.jpg\cf0 \
+	\cf8 new file:   img/portfolio/thumbnails/4.jpg\cf0 \
+	\cf8 new file:   img/portfolio/thumbnails/5.jpg\cf0 \
+	\cf8 new file:   img/portfolio/thumbnails/6.jpg\cf0 \
+	\cf8 new file:   index.html\cf0 \
+	\cf8 new file:   js/creative.js\cf0 \
+	\cf8 new file:   js/creative.min.js\cf0 \
+	\cf8 new file:   less/creative.less\cf0 \
+	\cf8 new file:   less/mixins.less\cf0 \
+	\cf8 new file:   less/variables.less\cf0 \
+	\cf8 new file:   package.json\cf0 \
+	\cf8 new file:   vendor/bootstrap/css/bootstrap.css\cf0 \
+	\cf8 new file:   vendor/bootstrap/css/bootstrap.min.css\cf0 \
+	\cf8 new file:   vendor/bootstrap/fonts/glyphicons-halflings-regular.eot\cf0 \
+	\cf8 new file:   vendor/bootstrap/fonts/glyphicons-halflings-regular.svg\cf0 \
+	\cf8 new file:   vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf\cf0 \
+	\cf8 new file:   vendor/bootstrap/fonts/glyphicons-halflings-regular.woff\cf0 \
+	\cf8 new file:   vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2\cf0 \
+	\cf8 new file:   vendor/bootstrap/js/bootstrap.js\cf0 \
+	\cf8 new file:   vendor/bootstrap/js/bootstrap.min.js\cf0 \
+	\cf8 new file:   vendor/font-awesome/css/font-awesome.css\cf0 \
+	\cf8 new file:   vendor/font-awesome/css/font-awesome.min.css\cf0 \
+	\cf8 new file:   vendor/font-awesome/fonts/FontAwesome.otf\cf0 \
+	\cf8 new file:   vendor/font-awesome/fonts/fontawesome-webfont.eot\cf0 \
+	\cf8 new file:   vendor/font-awesome/fonts/fontawesome-webfont.svg\cf0 \
+	\cf8 new file:   vendor/font-awesome/fonts/fontawesome-webfont.ttf\cf0 \
+	\cf8 new file:   vendor/font-awesome/fonts/fontawesome-webfont.woff\cf0 \
+	\cf8 new file:   vendor/font-awesome/fonts/fontawesome-webfont.woff2\cf0 \
+	\cf8 new file:   vendor/font-awesome/less/animated.less\cf0 \
+	\cf8 new file:   vendor/font-awesome/less/bordered-pulled.less\cf0 \
+	\cf8 new file:   vendor/font-awesome/less/core.less\cf0 \
+	\cf8 new file:   vendor/font-awesome/less/fixed-width.less\cf0 \
+	\cf8 new file:   vendor/font-awesome/less/font-awesome.less\cf0 \
+	\cf8 new file:   vendor/font-awesome/less/icons.less\cf0 \
+	\cf8 new file:   vendor/font-awesome/less/larger.less\cf0 \
+	\cf8 new file:   vendor/font-awesome/less/list.less\cf0 \
+	\cf8 new file:   vendor/font-awesome/less/mixins.less\cf0 \
+	\cf8 new file:   vendor/font-awesome/less/path.less\cf0 \
+	\cf8 new file:   vendor/font-awesome/less/rotated-flipped.less\cf0 \
+	\cf8 new file:   vendor/font-awesome/less/screen-reader.less\cf0 \
+	\cf8 new file:   vendor/font-awesome/less/stacked.less\cf0 \
+	\cf8 new file:   vendor/font-awesome/less/variables.less\cf0 \
+	\cf8 new file:   vendor/font-awesome/scss/_animated.scss\cf0 \
+	\cf8 new file:   vendor/font-awesome/scss/_bordered-pulled.scss\cf0 \
+	\cf8 new file:   vendor/font-awesome/scss/_core.scss\cf0 \
+	\cf8 new file:   vendor/font-awesome/scss/_fixed-width.scss\cf0 \
+	\cf8 new file:   vendor/font-awesome/scss/_icons.scss\cf0 \
+	\cf8 new file:   vendor/font-awesome/scss/_larger.scss\cf0 \
+	\cf8 new file:   vendor/font-awesome/scss/_list.scss\cf0 \
+	\cf8 new file:   vendor/font-awesome/scss/_mixins.scss\cf0 \
+	\cf8 new file:   vendor/font-awesome/scss/_path.scss\cf0 \
+	\cf8 new file:   vendor/font-awesome/scss/_rotated-flipped.scss\cf0 \
+	\cf8 new file:   vendor/font-awesome/scss/_screen-reader.scss\cf0 \
+	\cf8 new file:   vendor/font-awesome/scss/_stacked.scss\cf0 \
+	\cf8 new file:   vendor/font-awesome/scss/_variables.scss\cf0 \
+	\cf8 new file:   vendor/font-awesome/scss/font-awesome.scss\cf0 \
+	\cf8 new file:   vendor/jquery/jquery.js\cf0 \
+	\cf8 new file:   vendor/jquery/jquery.min.js\cf0 \
+	\cf8 new file:   vendor/magnific-popup/jquery.magnific-popup.js\cf0 \
+	\cf8 new file:   vendor/magnific-popup/jquery.magnific-popup.min.js\cf0 \
+	\cf8 new file:   vendor/magnific-popup/magnific-popup.css\cf0 \
+	\cf8 new file:   vendor/scrollreveal/scrollreveal.js\cf0 \
+	\cf8 new file:   vendor/scrollreveal/scrollreveal.min.js\cf0 \
+\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 [+]\
+\cf5 $ \cf0 git commit -m "adds bootstrap template"\
+[master 493f076] adds bootstrap template\
+ 77 files changed, 31330 insertions(+), 1 deletion(-)\
+ create mode 100755 LICENSE\
+ rewrite README.md (100%)\
+ mode change 100644 => 100755\
+ create mode 100755 css/creative.css\
+ create mode 100755 css/creative.min.css\
+ create mode 100755 gulpfile.js\
+ create mode 100755 img/header.jpg\
+ create mode 100755 img/portfolio/fullsize/1.jpg\
+ create mode 100755 img/portfolio/fullsize/2.jpg\
+ create mode 100755 img/portfolio/fullsize/3.jpg\
+ create mode 100755 img/portfolio/fullsize/4.jpg\
+ create mode 100755 img/portfolio/fullsize/5.jpg\
+ create mode 100755 img/portfolio/fullsize/6.jpg\
+ create mode 100755 img/portfolio/thumbnails/1.jpg\
+ create mode 100755 img/portfolio/thumbnails/2.jpg\
+ create mode 100755 img/portfolio/thumbnails/3.jpg\
+ create mode 100755 img/portfolio/thumbnails/4.jpg\
+ create mode 100755 img/portfolio/thumbnails/5.jpg\
+ create mode 100755 img/portfolio/thumbnails/6.jpg\
+ create mode 100755 index.html\
+ create mode 100755 js/creative.js\
+ create mode 100755 js/creative.min.js\
+ create mode 100755 less/creative.less\
+ create mode 100755 less/mixins.less\
+ create mode 100755 less/variables.less\
+ create mode 100755 package.json\
+ create mode 100755 vendor/bootstrap/css/bootstrap.css\
+ create mode 100755 vendor/bootstrap/css/bootstrap.min.css\
+ create mode 100755 vendor/bootstrap/fonts/glyphicons-halflings-regular.eot\
+ create mode 100755 vendor/bootstrap/fonts/glyphicons-halflings-regular.svg\
+ create mode 100755 vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf\
+ create mode 100755 vendor/bootstrap/fonts/glyphicons-halflings-regular.woff\
+ create mode 100755 vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2\
+ create mode 100755 vendor/bootstrap/js/bootstrap.js\
+ create mode 100755 vendor/bootstrap/js/bootstrap.min.js\
+ create mode 100755 vendor/font-awesome/css/font-awesome.css\
+ create mode 100755 vendor/font-awesome/css/font-awesome.min.css\
+ create mode 100755 vendor/font-awesome/fonts/FontAwesome.otf\
+ create mode 100755 vendor/font-awesome/fonts/fontawesome-webfont.eot\
+ create mode 100755 vendor/font-awesome/fonts/fontawesome-webfont.svg\
+ create mode 100755 vendor/font-awesome/fonts/fontawesome-webfont.ttf\
+ create mode 100755 vendor/font-awesome/fonts/fontawesome-webfont.woff\
+ create mode 100755 vendor/font-awesome/fonts/fontawesome-webfont.woff2\
+ create mode 100755 vendor/font-awesome/less/animated.less\
+ create mode 100755 vendor/font-awesome/less/bordered-pulled.less\
+ create mode 100755 vendor/font-awesome/less/core.less\
+ create mode 100755 vendor/font-awesome/less/fixed-width.less\
+ create mode 100755 vendor/font-awesome/less/font-awesome.less\
+ create mode 100755 vendor/font-awesome/less/icons.less\
+ create mode 100755 vendor/font-awesome/less/larger.less\
+ create mode 100755 vendor/font-awesome/less/list.less\
+ create mode 100755 vendor/font-awesome/less/mixins.less\
+ create mode 100755 vendor/font-awesome/less/path.less\
+ create mode 100755 vendor/font-awesome/less/rotated-flipped.less\
+ create mode 100755 vendor/font-awesome/less/screen-reader.less\
+ create mode 100755 vendor/font-awesome/less/stacked.less\
+ create mode 100755 vendor/font-awesome/less/variables.less\
+ create mode 100755 vendor/font-awesome/scss/_animated.scss\
+ create mode 100755 vendor/font-awesome/scss/_bordered-pulled.scss\
+ create mode 100755 vendor/font-awesome/scss/_core.scss\
+ create mode 100755 vendor/font-awesome/scss/_fixed-width.scss\
+ create mode 100755 vendor/font-awesome/scss/_icons.scss\
+ create mode 100755 vendor/font-awesome/scss/_larger.scss\
+ create mode 100755 vendor/font-awesome/scss/_list.scss\
+ create mode 100755 vendor/font-awesome/scss/_mixins.scss\
+ create mode 100755 vendor/font-awesome/scss/_path.scss\
+ create mode 100755 vendor/font-awesome/scss/_rotated-flipped.scss\
+ create mode 100755 vendor/font-awesome/scss/_screen-reader.scss\
+ create mode 100755 vendor/font-awesome/scss/_stacked.scss\
+ create mode 100755 vendor/font-awesome/scss/_variables.scss\
+ create mode 100755 vendor/font-awesome/scss/font-awesome.scss\
+ create mode 100755 vendor/jquery/jquery.js\
+ create mode 100755 vendor/jquery/jquery.min.js\
+ create mode 100755 vendor/magnific-popup/jquery.magnific-popup.js\
+ create mode 100755 vendor/magnific-popup/jquery.magnific-popup.min.js\
+ create mode 100755 vendor/magnific-popup/magnific-popup.css\
+ create mode 100755 vendor/scrollreveal/scrollreveal.js\
+ create mode 100755 vendor/scrollreveal/scrollreveal.min.js\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git push origin master\
+Counting objects: 92, done.\
+Delta compression using up to 4 threads.\
+Compressing objects: 100% (92/92), done.\
+Writing objects: 100% (92/92), 1.31 MiB | 1.26 MiB/s, done.\
+Total 92 (delta 2), reused 0 (delta 0)\
+remote: Resolving deltas: 100% (2/2), done.\
+To git@github.com:emilyyutschmidtling/eys_portfolio.git\
+   073a7a7..493f076  master -> master\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git checkout -b gh-pages\
+Switched to a new branch 'gh-pages'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git push origin gh-pages \
+Total 0 (delta 0), reused 0 (delta 0)\
+To git@github.com:emilyyutschmidtling/eys_portfolio.git\
+ * [new branch]      gh-pages -> gh-pages\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git checkout master\
+Switched to branch 'master'\
+Your branch is up-to-date with 'origin/master'.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git add -A\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 [+]\
+\cf5 $ \cf0 git commit -m "adds CNAME file"\
+[master fa43166] adds CNAME file\
+ 1 file changed, 2 insertions(+)\
+ create mode 100644 CNAME\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git remote -v\
+origin	git@github.com:emilyyutschmidtling/eys_portfolio.git (fetch)\
+origin	git@github.com:emilyyutschmidtling/eys_portfolio.git (push)\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git push origin master\
+Counting objects: 3, done.\
+Delta compression using up to 4 threads.\
+Compressing objects: 100% (3/3), done.\
+Writing objects: 100% (3/3), 309 bytes | 0 bytes/s, done.\
+Total 3 (delta 1), reused 0 (delta 0)\
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.\
+To git@github.com:emilyyutschmidtling/eys_portfolio.git\
+   493f076..fa43166  master -> master\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git checkout gh-pages \
+Switched to branch 'gh-pages'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git push origin gh-pages \
+Everything up-to-date\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git checkout master\
+Switched to branch 'master'\
+Your branch is up-to-date with 'origin/master'.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git checkout gh-pages \
+Switched to branch 'gh-pages'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git push origin gh-pages \
+To git@github.com:emilyyutschmidtling/eys_portfolio.git\
+ ! [rejected]        gh-pages -> gh-pages (fetch first)\
+error: failed to push some refs to 'git@github.com:emilyyutschmidtling/eys_portfolio.git'\
+hint: Updates were rejected because the remote contains work that you do\
+hint: not have locally. This is usually caused by another repository pushing\
+hint: to the same ref. You may want to first integrate the remote changes\
+hint: (e.g., 'git pull ...') before pushing again.\
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git checkout master\
+Switched to branch 'master'\
+Your branch is up-to-date with 'origin/master'.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git status\
+On branch master\
+Your branch is up-to-date with 'origin/master'.\
+nothing to commit, working tree clean\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git pull origin master\
+From github.com:emilyyutschmidtling/eys_portfolio\
+ * branch            master     -> FETCH_HEAD\
+Already up-to-date.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git pull master origin\
+fatal: 'master' does not appear to be a git repository\
+fatal: Could not read from remote repository.\
+\
+Please make sure you have the correct access rights\
+and the repository exists.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git pull origin\
+remote: Counting objects: 8, done.\
+remote: Compressing objects: 100% (6/6), done.\
+remote: Total 8 (delta 3), reused 0 (delta 0), pack-reused 0\
+Unpacking objects: 100% (8/8), done.\
+From github.com:emilyyutschmidtling/eys_portfolio\
+   493f076..324e5df  gh-pages   -> origin/gh-pages\
+Already up-to-date.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git checkout gh-pages \
+Switched to branch 'gh-pages'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git push origin gh-pages \
+To git@github.com:emilyyutschmidtling/eys_portfolio.git\
+ ! [rejected]        gh-pages -> gh-pages (non-fast-forward)\
+error: failed to push some refs to 'git@github.com:emilyyutschmidtling/eys_portfolio.git'\
+hint: Updates were rejected because the tip of your current branch is behind\
+hint: its remote counterpart. Integrate the remote changes (e.g.\
+hint: 'git pull ...') before pushing again.\
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/eys_portfolio\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 cd ..\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes\cf0 \
+\cf5 $ \cf0 rm -rf eys_portfolio/\
+removed 'eys_portfolio/.git/COMMIT_EDITMSG'\
+removed 'eys_portfolio/.git/config'\
+removed 'eys_portfolio/.git/description'\
+removed 'eys_portfolio/.git/FETCH_HEAD'\
+removed 'eys_portfolio/.git/HEAD'\
+removed 'eys_portfolio/.git/hooks/applypatch-msg.sample'\
+removed 'eys_portfolio/.git/hooks/commit-msg.sample'\
+removed 'eys_portfolio/.git/hooks/post-update.sample'\
+removed 'eys_portfolio/.git/hooks/pre-applypatch.sample'\
+removed 'eys_portfolio/.git/hooks/pre-commit.sample'\
+removed 'eys_portfolio/.git/hooks/pre-push.sample'\
+removed 'eys_portfolio/.git/hooks/pre-rebase.sample'\
+removed 'eys_portfolio/.git/hooks/prepare-commit-msg.sample'\
+removed 'eys_portfolio/.git/hooks/update.sample'\
+removed directory 'eys_portfolio/.git/hooks'\
+removed 'eys_portfolio/.git/index'\
+removed 'eys_portfolio/.git/info/exclude'\
+removed directory 'eys_portfolio/.git/info'\
+removed 'eys_portfolio/.git/logs/HEAD'\
+removed 'eys_portfolio/.git/logs/refs/heads/gh-pages'\
+removed 'eys_portfolio/.git/logs/refs/heads/master'\
+removed directory 'eys_portfolio/.git/logs/refs/heads'\
+removed 'eys_portfolio/.git/logs/refs/remotes/origin/gh-pages'\
+removed 'eys_portfolio/.git/logs/refs/remotes/origin/master'\
+removed directory 'eys_portfolio/.git/logs/refs/remotes/origin'\
+removed directory 'eys_portfolio/.git/logs/refs/remotes'\
+removed directory 'eys_portfolio/.git/logs/refs'\
+removed directory 'eys_portfolio/.git/logs'\
+removed 'eys_portfolio/.git/objects/00/f095aeeeb1f2d40911c841153b61afcfa838f5'\
+removed directory 'eys_portfolio/.git/objects/00'\
+removed 'eys_portfolio/.git/objects/07/3a7a72ddd96b4686063fce4d5551dca17a1ef3'\
+removed 'eys_portfolio/.git/objects/07/a6d176ccbfde992b9281a53dd350167a694628'\
+removed directory 'eys_portfolio/.git/objects/07'\
+removed 'eys_portfolio/.git/objects/0b/440382f61f0bb1683e5b15c2a00e4e398f9980'\
+removed directory 'eys_portfolio/.git/objects/0b'\
+removed 'eys_portfolio/.git/objects/0d/f8fde8c18bc38a36b7e9e9f7ba179164d41407'\
+removed directory 'eys_portfolio/.git/objects/0d'\
+removed 'eys_portfolio/.git/objects/11/0289f2f4b5260ce04dd035408961f1e4f2785b'\
+removed 'eys_portfolio/.git/objects/11/ae2858ed51c5185333a017295867382d2f9ecf'\
+removed 'eys_portfolio/.git/objects/11/c188196d5ade55930b7b94fc5a1dd0f6d1a800'\
+removed directory 'eys_portfolio/.git/objects/11'\
+removed 'eys_portfolio/.git/objects/13/1dfdc2de848545b3a7602b796ab5cfc50e22a9'\
+removed directory 'eys_portfolio/.git/objects/13'\
+removed 'eys_portfolio/.git/objects/14/13fc609ab6f21774de0cb7e01360095584f65b'\
+removed directory 'eys_portfolio/.git/objects/14'\
+removed 'eys_portfolio/.git/objects/18/35d3b33daeda71873d6ca1f8bfa8ed76297434'\
+removed directory 'eys_portfolio/.git/objects/18'\
+removed 'eys_portfolio/.git/objects/19/d8c657bb8a537a53a1a917be57785c5caf6012'\
+removed directory 'eys_portfolio/.git/objects/19'\
+removed 'eys_portfolio/.git/objects/1c/1ffce0615ce64b0a01b799338e0948e7eeb212'\
+removed directory 'eys_portfolio/.git/objects/1c'\
+removed 'eys_portfolio/.git/objects/22/b83e95328a9cac9d93cf659025850484e6e365'\
+removed directory 'eys_portfolio/.git/objects/22'\
+removed 'eys_portfolio/.git/objects/23/08b14ca7c27e6ea02f874e9ab7456032a7d007'\
+removed directory 'eys_portfolio/.git/objects/23'\
+removed 'eys_portfolio/.git/objects/29/44344350f3fab4741095812606ecb48be18fab'\
+removed directory 'eys_portfolio/.git/objects/29'\
+removed 'eys_portfolio/.git/objects/2b/3381975e9e6ba8b0bf98ee86abf264ad158cb7'\
+removed directory 'eys_portfolio/.git/objects/2b'\
+removed 'eys_portfolio/.git/objects/32/4e5df08210ba1de5c495c8ec360b92f2077afb'\
+removed directory 'eys_portfolio/.git/objects/32'\
+removed 'eys_portfolio/.git/objects/3b/0862707b2bce677bde7819960174c6a49aad48'\
+removed directory 'eys_portfolio/.git/objects/3b'\
+removed 'eys_portfolio/.git/objects/3e/03a1712a533f03d643bf7b454af44909241911'\
+removed directory 'eys_portfolio/.git/objects/3e'\
+removed 'eys_portfolio/.git/objects/41/e9a8184aa287c5970cc8415e3c5a6310dc9f79'\
+removed directory 'eys_portfolio/.git/objects/41'\
+removed 'eys_portfolio/.git/objects/44/692cc902078585121655d9590d3312cbe50cd5'\
+removed directory 'eys_portfolio/.git/objects/44'\
+removed 'eys_portfolio/.git/objects/46/cd9c87c8a17164ea1efc153c88656133fe90ba'\
+removed directory 'eys_portfolio/.git/objects/46'\
+removed 'eys_portfolio/.git/objects/49/3f0761fd510bc44170a529b4028bfbac039195'\
+removed directory 'eys_portfolio/.git/objects/49'\
+removed 'eys_portfolio/.git/objects/4a/db29feec6042f17909771ecbadbcd3e0f59138'\
+removed directory 'eys_portfolio/.git/objects/4a'\
+removed 'eys_portfolio/.git/objects/50/f9c09cd71382cc637a6377acdf71e51bb3aa67'\
+removed directory 'eys_portfolio/.git/objects/50'\
+removed 'eys_portfolio/.git/objects/5a/0986dca9728f6b6e601433e36a0ec3a180e5df'\
+removed directory 'eys_portfolio/.git/objects/5a'\
+removed 'eys_portfolio/.git/objects/5e/71eb526944c9aa0efea7fdced564d7f4b1e6db'\
+removed directory 'eys_portfolio/.git/objects/5e'\
+removed 'eys_portfolio/.git/objects/61/67622cecfb5c0f04156363565e3d4109fc55c5'\
+removed directory 'eys_portfolio/.git/objects/61'\
+removed 'eys_portfolio/.git/objects/63/7426f0da6dcef3602d764d9e359dabb4a5a862'\
+removed directory 'eys_portfolio/.git/objects/63'\
+removed 'eys_portfolio/.git/objects/64/539b54c3751a6d9adb44c8e3a45ba5a73b77f0'\
+removed directory 'eys_portfolio/.git/objects/64'\
+removed 'eys_portfolio/.git/objects/65/f238740db087ef09b332e51a8b41bcc36bb3dd'\
+removed directory 'eys_portfolio/.git/objects/65'\
+removed 'eys_portfolio/.git/objects/66/ad52a5ba052ced428dcc7ec7016bc25438a2ca'\
+removed directory 'eys_portfolio/.git/objects/66'\
+removed 'eys_portfolio/.git/objects/6e/7483cf61b490c08ed644d6ef802c69472eb247'\
+removed 'eys_portfolio/.git/objects/6e/e3a3bd5b52860ea3e99fdf8633ad683943245e'\
+removed directory 'eys_portfolio/.git/objects/6e'\
+removed 'eys_portfolio/.git/objects/6f/63b491a70bf00c0043754c26221357d4d9f507'\
+removed directory 'eys_portfolio/.git/objects/6f'\
+removed 'eys_portfolio/.git/objects/74/25ef85fc80ce6b035065906fc27490715e3733'\
+removed 'eys_portfolio/.git/objects/74/de548fa7a7a6a3be4a6820f6aa500a5880ecef'\
+removed directory 'eys_portfolio/.git/objects/74'\
+removed 'eys_portfolio/.git/objects/77/38e45782b36ab46879472fe9cc3f60b0b0123e'\
+removed directory 'eys_portfolio/.git/objects/77'\
+removed 'eys_portfolio/.git/objects/7a/9d4ab48590f848c14a880ce0aa2c7b2039d107'\
+removed directory 'eys_portfolio/.git/objects/7a'\
+removed 'eys_portfolio/.git/objects/7d/1e4d54d6c293333eb638aa56feba7b62e15564'\
+removed directory 'eys_portfolio/.git/objects/7d'\
+removed 'eys_portfolio/.git/objects/7e/b74fd127ee5eddf3b95fee6a20dc1684b0963b'\
+removed directory 'eys_portfolio/.git/objects/7e'\
+removed 'eys_portfolio/.git/objects/7f/c60fca78b6201f814da4b2906cae2b69ee9610'\
+removed directory 'eys_portfolio/.git/objects/7f'\
+removed 'eys_portfolio/.git/objects/82/243f238e6ec57c1020254de257a09f01ea3b8b'\
+removed directory 'eys_portfolio/.git/objects/82'\
+removed 'eys_portfolio/.git/objects/83/5be41f8151b6439f799be29ec7921af1b72593'\
+removed directory 'eys_portfolio/.git/objects/83'\
+removed 'eys_portfolio/.git/objects/84/708bed64c61a43fb88c171ae8e2e4934434589'\
+removed directory 'eys_portfolio/.git/objects/84'\
+removed 'eys_portfolio/.git/objects/85/61e181adf05fbc285c993cb4664872cd11453f'\
+removed directory 'eys_portfolio/.git/objects/85'\
+removed 'eys_portfolio/.git/objects/8a/020dbfff7822bf57c7217eafdaa4884b8aa943'\
+removed 'eys_portfolio/.git/objects/8a/2e99a535d47e5798b167d1074ae2c77cab21e7'\
+removed directory 'eys_portfolio/.git/objects/8a'\
+removed 'eys_portfolio/.git/objects/8b/3991a5158f66fa7e04e494cf77719ded2175df'\
+removed 'eys_portfolio/.git/objects/8b/66187fe067c3aa389ce8c98108f349ceae159c'\
+removed directory 'eys_portfolio/.git/objects/8b'\
+removed 'eys_portfolio/.git/objects/92/7b3c1f8065e5bf49cc61598323fd0bc983ab1d'\
+removed 'eys_portfolio/.git/objects/92/dcdc666abb01761a5651fb56e56c0d844ba08a'\
+removed directory 'eys_portfolio/.git/objects/92'\
+removed 'eys_portfolio/.git/objects/94/fb5490a2ed10b2c69a4a567a4fd2e4f706d841'\
+removed directory 'eys_portfolio/.git/objects/94'\
+removed 'eys_portfolio/.git/objects/9b/27f8ea8f8da544b622a801c4a47f73e3865929'\
+removed 'eys_portfolio/.git/objects/9b/cd2fccaed9442f1460191d6670ca5e8e08520c'\
+removed 'eys_portfolio/.git/objects/9b/e6c5ea2b664acd57b5edbecd16c0af853a4ea6'\
+removed directory 'eys_portfolio/.git/objects/9b'\
+removed 'eys_portfolio/.git/objects/9e/612858f802245ddcbf59788a0db942224bab35'\
+removed directory 'eys_portfolio/.git/objects/9e'\
+removed 'eys_portfolio/.git/objects/a0/b879fa0006d7ad46c994024196228753d678b3'\
+removed directory 'eys_portfolio/.git/objects/a0'\
+removed 'eys_portfolio/.git/objects/a3/558fd09ca7cb968166d5445f4df1a0bc2d5a7e'\
+removed directory 'eys_portfolio/.git/objects/a3'\
+removed 'eys_portfolio/.git/objects/a5/a89ef97bcfa214b44b81d0cdb488cca416420e'\
+removed 'eys_portfolio/.git/objects/a5/f7489060c2f95229ac0b74b6ae6fd8eeb763d2'\
+removed directory 'eys_portfolio/.git/objects/a5'\
+removed 'eys_portfolio/.git/objects/ad/8d257458bf1b0f5bb37f863d1fe14713847f03'\
+removed directory 'eys_portfolio/.git/objects/ad'\
+removed 'eys_portfolio/.git/objects/ae/79ca36cbef6f70fd403033bfb2adbf062c4918'\
+removed 'eys_portfolio/.git/objects/ae/f7403660c9a2ccc02a264c62c6b105f7d8d532'\
+removed directory 'eys_portfolio/.git/objects/ae'\
+removed 'eys_portfolio/.git/objects/b1/9783766f9f23c40dbf38e7bdbc2e5b648e4db9'\
+removed directory 'eys_portfolio/.git/objects/b1'\
+removed 'eys_portfolio/.git/objects/b2/1a437ab70cc98cd2880d3b7c739576627586d7'\
+removed 'eys_portfolio/.git/objects/b2/21c98133a4d4a8449c848ccb69bf631d1c3e5d'\
+removed directory 'eys_portfolio/.git/objects/b2'\
+removed 'eys_portfolio/.git/objects/b9/3a4953fff68df523aa7656497ee339d6026d64'\
+removed 'eys_portfolio/.git/objects/b9/ee80c3d9705589abd2c76e9bdccf46e9b80b1d'\
+removed directory 'eys_portfolio/.git/objects/b9'\
+removed 'eys_portfolio/.git/objects/ba/21b222d6ff0e0f604d99acf34dca0ce2bd9066'\
+removed directory 'eys_portfolio/.git/objects/ba'\
+removed 'eys_portfolio/.git/objects/bb/457c23a8e4e0688ebd9383e34ab9f2b3acecab'\
+removed directory 'eys_portfolio/.git/objects/bb'\
+removed 'eys_portfolio/.git/objects/bd/4701bc1d44fcd8ec78bec0075a4f68e36c7139'\
+removed directory 'eys_portfolio/.git/objects/bd'\
+removed 'eys_portfolio/.git/objects/be/ef231d0e176a47375d93fb7365270eea52f7b4'\
+removed directory 'eys_portfolio/.git/objects/be'\
+removed 'eys_portfolio/.git/objects/c1/0bc722e9eb40dc1d4f081c80acbc5a41009874'\
+removed directory 'eys_portfolio/.git/objects/c1'\
+removed 'eys_portfolio/.git/objects/c2/989856137e1ef1ad4b63c0f8b9dd5b86b66c37'\
+removed directory 'eys_portfolio/.git/objects/c2'\
+removed 'eys_portfolio/.git/objects/c3/bbd5745d35bebda3e16ce18aeff7a4a0ce5ae1'\
+removed 'eys_portfolio/.git/objects/c3/eec985fde72e1663863cd302e3182c449ad1f0'\
+removed directory 'eys_portfolio/.git/objects/c3'\
+removed 'eys_portfolio/.git/objects/c4/4e5f466a0de31751b647118a55dd563478815f'\
+removed directory 'eys_portfolio/.git/objects/c4'\
+removed 'eys_portfolio/.git/objects/c5/77ac84a6a55ef39ff7f4e25d60c3977a902ed1'\
+removed directory 'eys_portfolio/.git/objects/c5'\
+removed 'eys_portfolio/.git/objects/c7/81f3ceecefb6f266821c7ac6332ea3d5ea0a84'\
+removed 'eys_portfolio/.git/objects/c7/b00d2ba8896fd29de846b19f89fcf0d56ad152'\
+removed directory 'eys_portfolio/.git/objects/c7'\
+removed 'eys_portfolio/.git/objects/c8/c0e5da5a6c5bb9685092fb30b21917546eb5a6'\
+removed directory 'eys_portfolio/.git/objects/c8'\
+removed 'eys_portfolio/.git/objects/c9/d646770e2186c73632cbe042d82d1d1acaa25b'\
+removed directory 'eys_portfolio/.git/objects/c9'\
+removed 'eys_portfolio/.git/objects/cd/87077058a73a025a34c0b80f966de50bdb371f'\
+removed directory 'eys_portfolio/.git/objects/cd'\
+removed 'eys_portfolio/.git/objects/d1/12e83023085ffd447058afeaa375b1252a1cdd'\
+removed directory 'eys_portfolio/.git/objects/d1'\
+removed 'eys_portfolio/.git/objects/d4/5776133ddb6fde17a65fe23a5a7002e8e07a4f'\
+removed 'eys_portfolio/.git/objects/d4/b85a02f24adad8890ad69f7a1db6c7e3ec8a7d'\
+removed 'eys_portfolio/.git/objects/d4/de13e832d567ff29c5b4e9561b8c370348cc9c'\
+removed directory 'eys_portfolio/.git/objects/d4'\
+removed 'eys_portfolio/.git/objects/d8/df5e7705085c10bffc38376394907b7514aa99'\
+removed directory 'eys_portfolio/.git/objects/d8'\
+removed 'eys_portfolio/.git/objects/de/730d31d79c61aedcaa729131d650982229171b'\
+removed directory 'eys_portfolio/.git/objects/de'\
+removed 'eys_portfolio/.git/objects/e7/e8118bd451447730681a678787c08bf6ed499a'\
+removed directory 'eys_portfolio/.git/objects/e7'\
+removed 'eys_portfolio/.git/objects/e8/36475870da67f3c72f64777c6e0f37d9f4c87b'\
+removed directory 'eys_portfolio/.git/objects/e8'\
+removed 'eys_portfolio/.git/objects/e9/5176307253ab940df27c61b6430ea401e4b5fc'\
+removed directory 'eys_portfolio/.git/objects/e9'\
+removed 'eys_portfolio/.git/objects/ec/d77f0673078ef8a3a1765b3eeda2ef285df9a2'\
+removed directory 'eys_portfolio/.git/objects/ec'\
+removed 'eys_portfolio/.git/objects/ed/36df29797836f07633f6d546d93a5df3deb18b'\
+removed 'eys_portfolio/.git/objects/ed/3905e0e0c91d4ed7d8aa14412dffeb038745ff'\
+removed directory 'eys_portfolio/.git/objects/ed'\
+removed 'eys_portfolio/.git/objects/f1/c8ad75f52bbc6c84a6dc3a341fe39e8d3edfd4'\
+removed directory 'eys_portfolio/.git/objects/f1'\
+removed 'eys_portfolio/.git/objects/f2/21e50a2ef60738ba30932d834530cdfe55cb3e'\
+removed directory 'eys_portfolio/.git/objects/f2'\
+removed 'eys_portfolio/.git/objects/f4/27200dcb931da432f8777f7dca1c1171e8f8cf'\
+removed directory 'eys_portfolio/.git/objects/f4'\
+removed 'eys_portfolio/.git/objects/f6/a9d681be5b681c72d571f1a5192966c6360c1f'\
+removed 'eys_portfolio/.git/objects/f6/ba81475b92355723f0dc12767f715995a34162'\
+removed directory 'eys_portfolio/.git/objects/f6'\
+removed 'eys_portfolio/.git/objects/f8/d0e3ba3bd64439ca9b4df7b8844eb0832a0a9e'\
+removed directory 'eys_portfolio/.git/objects/f8'\
+removed 'eys_portfolio/.git/objects/fa/4316665cc68fc92271cfdb8a5d6e87c43f0902'\
+removed 'eys_portfolio/.git/objects/fa/55c9a04ad01179021d80706222149580d6e8ae'\
+removed directory 'eys_portfolio/.git/objects/fa'\
+removed 'eys_portfolio/.git/objects/fc/53fb0e7ab49594e1eac97208c32a290558efeb'\
+removed directory 'eys_portfolio/.git/objects/fc'\
+removed directory 'eys_portfolio/.git/objects/info'\
+removed directory 'eys_portfolio/.git/objects/pack'\
+removed directory 'eys_portfolio/.git/objects'\
+removed 'eys_portfolio/.git/ORIG_HEAD'\
+removed 'eys_portfolio/.git/refs/heads/gh-pages'\
+removed 'eys_portfolio/.git/refs/heads/master'\
+removed directory 'eys_portfolio/.git/refs/heads'\
+removed 'eys_portfolio/.git/refs/remotes/origin/gh-pages'\
+removed 'eys_portfolio/.git/refs/remotes/origin/master'\
+removed directory 'eys_portfolio/.git/refs/remotes/origin'\
+removed directory 'eys_portfolio/.git/refs/remotes'\
+removed directory 'eys_portfolio/.git/refs/tags'\
+removed directory 'eys_portfolio/.git/refs'\
+removed directory 'eys_portfolio/.git'\
+removed 'eys_portfolio/css/creative.css'\
+removed 'eys_portfolio/css/creative.min.css'\
+removed directory 'eys_portfolio/css'\
+removed 'eys_portfolio/gulpfile.js'\
+removed 'eys_portfolio/img/header.jpg'\
+removed 'eys_portfolio/img/portfolio/fullsize/1.jpg'\
+removed 'eys_portfolio/img/portfolio/fullsize/2.jpg'\
+removed 'eys_portfolio/img/portfolio/fullsize/3.jpg'\
+removed 'eys_portfolio/img/portfolio/fullsize/4.jpg'\
+removed 'eys_portfolio/img/portfolio/fullsize/5.jpg'\
+removed 'eys_portfolio/img/portfolio/fullsize/6.jpg'\
+removed directory 'eys_portfolio/img/portfolio/fullsize'\
+removed 'eys_portfolio/img/portfolio/thumbnails/1.jpg'\
+removed 'eys_portfolio/img/portfolio/thumbnails/2.jpg'\
+removed 'eys_portfolio/img/portfolio/thumbnails/3.jpg'\
+removed 'eys_portfolio/img/portfolio/thumbnails/4.jpg'\
+removed 'eys_portfolio/img/portfolio/thumbnails/5.jpg'\
+removed 'eys_portfolio/img/portfolio/thumbnails/6.jpg'\
+removed directory 'eys_portfolio/img/portfolio/thumbnails'\
+removed directory 'eys_portfolio/img/portfolio'\
+removed directory 'eys_portfolio/img'\
+removed 'eys_portfolio/index.html'\
+removed 'eys_portfolio/js/creative.js'\
+removed 'eys_portfolio/js/creative.min.js'\
+removed directory 'eys_portfolio/js'\
+removed 'eys_portfolio/less/creative.less'\
+removed 'eys_portfolio/less/mixins.less'\
+removed 'eys_portfolio/less/variables.less'\
+removed directory 'eys_portfolio/less'\
+removed 'eys_portfolio/LICENSE'\
+removed 'eys_portfolio/package.json'\
+removed 'eys_portfolio/README.md'\
+removed 'eys_portfolio/vendor/bootstrap/css/bootstrap.css'\
+removed 'eys_portfolio/vendor/bootstrap/css/bootstrap.min.css'\
+removed directory 'eys_portfolio/vendor/bootstrap/css'\
+removed 'eys_portfolio/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot'\
+removed 'eys_portfolio/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg'\
+removed 'eys_portfolio/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf'\
+removed 'eys_portfolio/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff'\
+removed 'eys_portfolio/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2'\
+removed directory 'eys_portfolio/vendor/bootstrap/fonts'\
+removed 'eys_portfolio/vendor/bootstrap/js/bootstrap.js'\
+removed 'eys_portfolio/vendor/bootstrap/js/bootstrap.min.js'\
+removed directory 'eys_portfolio/vendor/bootstrap/js'\
+removed directory 'eys_portfolio/vendor/bootstrap'\
+removed 'eys_portfolio/vendor/font-awesome/css/font-awesome.css'\
+removed 'eys_portfolio/vendor/font-awesome/css/font-awesome.min.css'\
+removed directory 'eys_portfolio/vendor/font-awesome/css'\
+removed 'eys_portfolio/vendor/font-awesome/fonts/fontawesome-webfont.eot'\
+removed 'eys_portfolio/vendor/font-awesome/fonts/fontawesome-webfont.svg'\
+removed 'eys_portfolio/vendor/font-awesome/fonts/fontawesome-webfont.ttf'\
+removed 'eys_portfolio/vendor/font-awesome/fonts/fontawesome-webfont.woff'\
+removed 'eys_portfolio/vendor/font-awesome/fonts/fontawesome-webfont.woff2'\
+removed 'eys_portfolio/vendor/font-awesome/fonts/FontAwesome.otf'\
+removed directory 'eys_portfolio/vendor/font-awesome/fonts'\
+removed 'eys_portfolio/vendor/font-awesome/less/animated.less'\
+removed 'eys_portfolio/vendor/font-awesome/less/bordered-pulled.less'\
+removed 'eys_portfolio/vendor/font-awesome/less/core.less'\
+removed 'eys_portfolio/vendor/font-awesome/less/fixed-width.less'\
+removed 'eys_portfolio/vendor/font-awesome/less/font-awesome.less'\
+removed 'eys_portfolio/vendor/font-awesome/less/icons.less'\
+removed 'eys_portfolio/vendor/font-awesome/less/larger.less'\
+removed 'eys_portfolio/vendor/font-awesome/less/list.less'\
+removed 'eys_portfolio/vendor/font-awesome/less/mixins.less'\
+removed 'eys_portfolio/vendor/font-awesome/less/path.less'\
+removed 'eys_portfolio/vendor/font-awesome/less/rotated-flipped.less'\
+removed 'eys_portfolio/vendor/font-awesome/less/screen-reader.less'\
+removed 'eys_portfolio/vendor/font-awesome/less/stacked.less'\
+removed 'eys_portfolio/vendor/font-awesome/less/variables.less'\
+removed directory 'eys_portfolio/vendor/font-awesome/less'\
+removed 'eys_portfolio/vendor/font-awesome/scss/_animated.scss'\
+removed 'eys_portfolio/vendor/font-awesome/scss/_bordered-pulled.scss'\
+removed 'eys_portfolio/vendor/font-awesome/scss/_core.scss'\
+removed 'eys_portfolio/vendor/font-awesome/scss/_fixed-width.scss'\
+removed 'eys_portfolio/vendor/font-awesome/scss/_icons.scss'\
+removed 'eys_portfolio/vendor/font-awesome/scss/_larger.scss'\
+removed 'eys_portfolio/vendor/font-awesome/scss/_list.scss'\
+removed 'eys_portfolio/vendor/font-awesome/scss/_mixins.scss'\
+removed 'eys_portfolio/vendor/font-awesome/scss/_path.scss'\
+removed 'eys_portfolio/vendor/font-awesome/scss/_rotated-flipped.scss'\
+removed 'eys_portfolio/vendor/font-awesome/scss/_screen-reader.scss'\
+removed 'eys_portfolio/vendor/font-awesome/scss/_stacked.scss'\
+removed 'eys_portfolio/vendor/font-awesome/scss/_variables.scss'\
+removed 'eys_portfolio/vendor/font-awesome/scss/font-awesome.scss'\
+removed directory 'eys_portfolio/vendor/font-awesome/scss'\
+removed directory 'eys_portfolio/vendor/font-awesome'\
+removed 'eys_portfolio/vendor/jquery/jquery.js'\
+removed 'eys_portfolio/vendor/jquery/jquery.min.js'\
+removed directory 'eys_portfolio/vendor/jquery'\
+removed 'eys_portfolio/vendor/magnific-popup/jquery.magnific-popup.js'\
+removed 'eys_portfolio/vendor/magnific-popup/jquery.magnific-popup.min.js'\
+removed 'eys_portfolio/vendor/magnific-popup/magnific-popup.css'\
+removed directory 'eys_portfolio/vendor/magnific-popup'\
+removed 'eys_portfolio/vendor/scrollreveal/scrollreveal.js'\
+removed 'eys_portfolio/vendor/scrollreveal/scrollreveal.min.js'\
+removed directory 'eys_portfolio/vendor/scrollreveal'\
+removed directory 'eys_portfolio/vendor'\
+removed directory 'eys_portfolio/'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes\cf0 \
+\cf5 $ \cf0 ls\
+' Notes 091316 - Job Search Fdns'\
+'EYSchmidtling Resume - REV 19Jul11.pdf'\
+'Elevator Speech.rtf'\
+GA_Outcomes_Materials/\
+'How to Coding Interview.pdf'\
+'Jekyll Repo Github Token.rtf'\
+'Key Learnings at GA.rtf'\
+'Notes 090216'\
+'Notes 091416 - Negotiation'\
+'Notes 091516 - Interviewing'\
+'Notes081916_resumes&coverLetters.rtf'\
+'PDI PC Job Descriptions.rtf'\
+README.md\
+'USC CEO Job Description.pdf'\
+'USC CEO Job Description.rtfd'/\
+job_skills_inventory.rtf\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes\cf0 \
+\cf5 $ \cf0 mkdir portfolio-eys\
+gmkdir: created directory 'portfolio-eys'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes\cf0 \
+\cf5 $ \cf0 cd portfolio-eys/\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf0 \
+\cf5 $ \cf0 echo "# portfolio-eys" >> README.md\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf0 \
+\cf5 $ \cf0 git init\
+Initialized empty Git repository in /Users/eyschmidtling/code/wdi/workspace/outcomes/portfolio-eys/.git/\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 [\cf7 ?\cf0 ]\
+\cf5 $ \cf0 git add README.md\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 [+]\
+\cf5 $ \cf0 git commit -m "first commit"\
+[master (root-commit) 313e494] first commit\
+ 1 file changed, 1 insertion(+)\
+ create mode 100644 README.md\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git remote add origin git@github.com:emilyyutschmidtling/portfolio-eys.git\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git push -u origin master\
+Counting objects: 3, done.\
+Writing objects: 100% (3/3), 236 bytes | 0 bytes/s, done.\
+Total 3 (delta 0), reused 0 (delta 0)\
+To git@github.com:emilyyutschmidtling/portfolio-eys.git\
+ * [new branch]      master -> master\
+Branch master set up to track remote branch master from origin.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 atom .\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 [!\cf7 ?\cf0 ]\
+\cf5 $ \cf0 git add -A\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 [+]\
+\cf5 $ \cf0 git commit -m "adds CNAME file and bootstrap template"\
+[master 8dee9fa] adds CNAME file and bootstrap template\
+ 78 files changed, 31332 insertions(+), 1 deletion(-)\
+ create mode 100644 CNAME\
+ create mode 100755 LICENSE\
+ rewrite README.md (100%)\
+ mode change 100644 => 100755\
+ create mode 100755 css/creative.css\
+ create mode 100755 css/creative.min.css\
+ create mode 100755 gulpfile.js\
+ create mode 100755 img/header.jpg\
+ create mode 100755 img/portfolio/fullsize/1.jpg\
+ create mode 100755 img/portfolio/fullsize/2.jpg\
+ create mode 100755 img/portfolio/fullsize/3.jpg\
+ create mode 100755 img/portfolio/fullsize/4.jpg\
+ create mode 100755 img/portfolio/fullsize/5.jpg\
+ create mode 100755 img/portfolio/fullsize/6.jpg\
+ create mode 100755 img/portfolio/thumbnails/1.jpg\
+ create mode 100755 img/portfolio/thumbnails/2.jpg\
+ create mode 100755 img/portfolio/thumbnails/3.jpg\
+ create mode 100755 img/portfolio/thumbnails/4.jpg\
+ create mode 100755 img/portfolio/thumbnails/5.jpg\
+ create mode 100755 img/portfolio/thumbnails/6.jpg\
+ create mode 100755 index.html\
+ create mode 100755 js/creative.js\
+ create mode 100755 js/creative.min.js\
+ create mode 100755 less/creative.less\
+ create mode 100755 less/mixins.less\
+ create mode 100755 less/variables.less\
+ create mode 100755 package.json\
+ create mode 100755 vendor/bootstrap/css/bootstrap.css\
+ create mode 100755 vendor/bootstrap/css/bootstrap.min.css\
+ create mode 100755 vendor/bootstrap/fonts/glyphicons-halflings-regular.eot\
+ create mode 100755 vendor/bootstrap/fonts/glyphicons-halflings-regular.svg\
+ create mode 100755 vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf\
+ create mode 100755 vendor/bootstrap/fonts/glyphicons-halflings-regular.woff\
+ create mode 100755 vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2\
+ create mode 100755 vendor/bootstrap/js/bootstrap.js\
+ create mode 100755 vendor/bootstrap/js/bootstrap.min.js\
+ create mode 100755 vendor/font-awesome/css/font-awesome.css\
+ create mode 100755 vendor/font-awesome/css/font-awesome.min.css\
+ create mode 100755 vendor/font-awesome/fonts/FontAwesome.otf\
+ create mode 100755 vendor/font-awesome/fonts/fontawesome-webfont.eot\
+ create mode 100755 vendor/font-awesome/fonts/fontawesome-webfont.svg\
+ create mode 100755 vendor/font-awesome/fonts/fontawesome-webfont.ttf\
+ create mode 100755 vendor/font-awesome/fonts/fontawesome-webfont.woff\
+ create mode 100755 vendor/font-awesome/fonts/fontawesome-webfont.woff2\
+ create mode 100755 vendor/font-awesome/less/animated.less\
+ create mode 100755 vendor/font-awesome/less/bordered-pulled.less\
+ create mode 100755 vendor/font-awesome/less/core.less\
+ create mode 100755 vendor/font-awesome/less/fixed-width.less\
+ create mode 100755 vendor/font-awesome/less/font-awesome.less\
+ create mode 100755 vendor/font-awesome/less/icons.less\
+ create mode 100755 vendor/font-awesome/less/larger.less\
+ create mode 100755 vendor/font-awesome/less/list.less\
+ create mode 100755 vendor/font-awesome/less/mixins.less\
+ create mode 100755 vendor/font-awesome/less/path.less\
+ create mode 100755 vendor/font-awesome/less/rotated-flipped.less\
+ create mode 100755 vendor/font-awesome/less/screen-reader.less\
+ create mode 100755 vendor/font-awesome/less/stacked.less\
+ create mode 100755 vendor/font-awesome/less/variables.less\
+ create mode 100755 vendor/font-awesome/scss/_animated.scss\
+ create mode 100755 vendor/font-awesome/scss/_bordered-pulled.scss\
+ create mode 100755 vendor/font-awesome/scss/_core.scss\
+ create mode 100755 vendor/font-awesome/scss/_fixed-width.scss\
+ create mode 100755 vendor/font-awesome/scss/_icons.scss\
+ create mode 100755 vendor/font-awesome/scss/_larger.scss\
+ create mode 100755 vendor/font-awesome/scss/_list.scss\
+ create mode 100755 vendor/font-awesome/scss/_mixins.scss\
+ create mode 100755 vendor/font-awesome/scss/_path.scss\
+ create mode 100755 vendor/font-awesome/scss/_rotated-flipped.scss\
+ create mode 100755 vendor/font-awesome/scss/_screen-reader.scss\
+ create mode 100755 vendor/font-awesome/scss/_stacked.scss\
+ create mode 100755 vendor/font-awesome/scss/_variables.scss\
+ create mode 100755 vendor/font-awesome/scss/font-awesome.scss\
+ create mode 100755 vendor/jquery/jquery.js\
+ create mode 100755 vendor/jquery/jquery.min.js\
+ create mode 100755 vendor/magnific-popup/jquery.magnific-popup.js\
+ create mode 100755 vendor/magnific-popup/jquery.magnific-popup.min.js\
+ create mode 100755 vendor/magnific-popup/magnific-popup.css\
+ create mode 100755 vendor/scrollreveal/scrollreveal.js\
+ create mode 100755 vendor/scrollreveal/scrollreveal.min.js\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git status\
+On branch master\
+Your branch is ahead of 'origin/master' by 1 commit.\
+  (use "git push" to publish your local commits)\
+nothing to commit, working tree clean\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git push origin master\
+Counting objects: 93, done.\
+Delta compression using up to 4 threads.\
+Compressing objects: 100% (93/93), done.\
+Writing objects: 100% (93/93), 1.31 MiB | 592.00 KiB/s, done.\
+Total 93 (delta 2), reused 0 (delta 0)\
+remote: Resolving deltas: 100% (2/2), done.\
+To git@github.com:emilyyutschmidtling/portfolio-eys.git\
+   313e494..8dee9fa  master -> master\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git checkout -b gh-pages\
+Switched to a new branch 'gh-pages'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git push origin gh-pages \
+Total 0 (delta 0), reused 0 (delta 0)\
+To git@github.com:emilyyutschmidtling/portfolio-eys.git\
+ * [new branch]      gh-pages -> gh-pages\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git checkout master\
+Switched to branch 'master'\
+Your branch is up-to-date with 'origin/master'.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 \
+\cf9 \cb10   [Restored Sep 20, 2016, 4:24:08 PM]\cf0 \
+\cb1 Last login: Tue Sep 20 16:22:28 on console\
+\cf2 \cb3  GA\cb0  General Assembly \cf0 \cb4  Web Development Immersive \cb1 \
+------------------------------------------\
+git version 2.9.1\
+Homebrew 0.9.9 (git revision 3820; last commit 2016-08-04) Homebrew/homebrew-core (git revision 9476; last commit 2016-08-04)\
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin15]\
+node v6.3.0\
+psql (PostgreSQL) 9.5.3\
+------------------------------------------\
+type 
+\f1\b unwelcome
+\f0\b0  to remove this message\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 [!\cf7 ?\cf0 ]\
+\cf5 $ \cf0 git add -A\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 [+]\
+\cf5 $ \cf0 git commit -m "functional first draft, has all the key sections"\
+[master 1725d18] functional first draft, has all the key sections\
+ 45 files changed, 269 insertions(+), 150 deletions(-)\
+ create mode 100644 img/DARPA_Big_Data1.jpg\
+ create mode 100644 img/GitHub-Mark-120px-plus.png\
+ create mode 100644 img/GitHub-Mark-Light-120px-plus.png\
+ create mode 100644 img/In-White-121px-R.png\
+ create mode 100644 img/acer1-791027_960_720.jpg\
+ create mode 100644 img/box1.jpg\
+ create mode 100644 img/code1-1076533_960_720.jpg\
+ create mode 100644 img/crane1.jpg\
+ create mode 100644 img/crane2.jpg\
+ create mode 100644 img/crane3.jpg\
+ create mode 100644 img/crane4.jpg\
+ create mode 100644 img/cube1.jpg\
+ create mode 100644 img/cube2.jpg\
+ create mode 100644 img/cube3.jpg\
+ create mode 100644 img/dino1.jpg\
+ create mode 100644 img/dino2.jpg\
+ create mode 100644 img/dino3.jpg\
+ create mode 100644 img/eys-project1.png\
+ create mode 100644 img/eys-project2.png\
+ create mode 100644 img/eys-project2A.png\
+ create mode 100644 img/eys-project3.png\
+ create mode 100644 img/eys-project3A.png\
+ create mode 100644 img/eys-project4.png\
+ create mode 100644 img/eys-project4A.png\
+ create mode 100644 img/eys1.jpg\
+ create mode 100644 img/eys2.jpg\
+ create mode 100644 img/eys3.jpg\
+ create mode 100644 img/eys_IMG_0401_1024.jpg\
+ create mode 100644 img/frog1.jpg\
+ create mode 100644 img/frog2.jpg\
+ create mode 100644 img/frog3.jpg\
+ create mode 100644 img/frog4.jpg\
+ create mode 100644 img/linkedin-logo-3.png\
+ create mode 100644 img/panda1.jpg\
+ create mode 100644 img/panda2.jpg\
+ create mode 100644 img/panda3.jpg\
+ create mode 100644 img/plane1.jpg\
+ create mode 100644 img/plane2.jpg\
+ create mode 100644 img/plane3.jpg\
+ create mode 100644 img/saurus1.jpg\
+ create mode 100644 img/woman-hand-smartphone-desk1.jpg\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git push origin master\
+Counting objects: 50, done.\
+Delta compression using up to 4 threads.\
+Compressing objects: 100% (50/50), done.\
+Writing objects: 100% (50/50), 7.07 MiB | 2.13 MiB/s, done.\
+Total 50 (delta 5), reused 0 (delta 0)\
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.\
+To git@github.com:emilyyutschmidtling/portfolio-eys.git\
+   8dee9fa..1725d18  master -> master\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git checkout gh-pages \
+Switched to branch 'gh-pages'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git push origin gh-pages \
+Everything up-to-date\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git checkout master\
+Switched to branch 'master'\
+Your branch is up-to-date with 'origin/master'.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git checkout gh-pages \
+Switched to branch 'gh-pages'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git push origin gh-pages\
+Everything up-to-date\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git checkout master\
+Switched to branch 'master'\
+Your branch is up-to-date with 'origin/master'.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git add -A\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 [+]\
+\cf5 $ \cf0 git commit -m "adds Portfolio heading"\
+[master f8df5f7] adds Portfolio heading\
+ 1 file changed, 4 insertions(+), 1 deletion(-)\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git status\
+On branch master\
+Your branch is ahead of 'origin/master' by 1 commit.\
+  (use "git push" to publish your local commits)\
+nothing to commit, working tree clean\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git push origin master\
+Counting objects: 3, done.\
+Delta compression using up to 4 threads.\
+Compressing objects: 100% (3/3), done.\
+Writing objects: 100% (3/3), 354 bytes | 0 bytes/s, done.\
+Total 3 (delta 2), reused 0 (delta 0)\
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.\
+To git@github.com:emilyyutschmidtling/portfolio-eys.git\
+   1725d18..f8df5f7  master -> master\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git checkout -b gh-pages \
+fatal: A branch named 'gh-pages' already exists.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 git checkout gh-pages \
+Switched to branch 'gh-pages'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git status\
+On branch gh-pages\
+nothing to commit, working tree clean\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git checkout gh-pages \
+Already on 'gh-pages'\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git merge master\
+Updating 8dee9fa..f8df5f7\
+Fast-forward\
+ css/creative.css                     |  94 \cf8 ++++++++\cf7 ---\cf0 \
+ css/creative.min.css                 |   2 \cf8 +\cf7 -\cf0 \
+ img/DARPA_Big_Data1.jpg              | Bin \cf7 0\cf0  -> \cf8 435262\cf0  bytes\
+ img/GitHub-Mark-120px-plus.png       | Bin \cf7 0\cf0  -> \cf8 4268\cf0  bytes\
+ img/GitHub-Mark-Light-120px-plus.png | Bin \cf7 0\cf0  -> \cf8 4044\cf0  bytes\
+ img/In-White-121px-R.png             | Bin \cf7 0\cf0  -> \cf8 2294\cf0  bytes\
+ img/acer1-791027_960_720.jpg         | Bin \cf7 0\cf0  -> \cf8 86351\cf0  bytes\
+ img/box1.jpg                         | Bin \cf7 0\cf0  -> \cf8 156322\cf0  bytes\
+ img/code1-1076533_960_720.jpg        | Bin \cf7 0\cf0  -> \cf8 165620\cf0  bytes\
+ img/crane1.jpg                       | Bin \cf7 0\cf0  -> \cf8 200308\cf0  bytes\
+ img/crane2.jpg                       | Bin \cf7 0\cf0  -> \cf8 150122\cf0  bytes\
+ img/crane3.jpg                       | Bin \cf7 0\cf0  -> \cf8 153675\cf0  bytes\
+ img/crane4.jpg                       | Bin \cf7 0\cf0  -> \cf8 131719\cf0  bytes\
+ img/cube1.jpg                        | Bin \cf7 0\cf0  -> \cf8 217718\cf0  bytes\
+ img/cube2.jpg                        | Bin \cf7 0\cf0  -> \cf8 154669\cf0  bytes\
+ img/cube3.jpg                        | Bin \cf7 0\cf0  -> \cf8 153185\cf0  bytes\
+ img/dino1.jpg                        | Bin \cf7 0\cf0  -> \cf8 182112\cf0  bytes\
+ img/dino2.jpg                        | Bin \cf7 0\cf0  -> \cf8 144269\cf0  bytes\
+ img/dino3.jpg                        | Bin \cf7 0\cf0  -> \cf8 141412\cf0  bytes\
+ img/eys-project1.png                 | Bin \cf7 0\cf0  -> \cf8 21904\cf0  bytes\
+ img/eys-project2.png                 | Bin \cf7 0\cf0  -> \cf8 209770\cf0  bytes\
+ img/eys-project2A.png                | Bin \cf7 0\cf0  -> \cf8 559967\cf0  bytes\
+ img/eys-project3.png                 | Bin \cf7 0\cf0  -> \cf8 379967\cf0  bytes\
+ img/eys-project3A.png                | Bin \cf7 0\cf0  -> \cf8 617720\cf0  bytes\
+ img/eys-project4.png                 | Bin \cf7 0\cf0  -> \cf8 415387\cf0  bytes\
+ img/eys-project4A.png                | Bin \cf7 0\cf0  -> \cf8 255620\cf0  bytes\
+ img/eys1.jpg                         | Bin \cf7 0\cf0  -> \cf8 136005\cf0  bytes\
+ img/eys2.jpg                         | Bin \cf7 0\cf0  -> \cf8 129133\cf0  bytes\
+ img/eys3.jpg                         | Bin \cf7 0\cf0  -> \cf8 92816\cf0  bytes\
+ img/eys_IMG_0401_1024.jpg            | Bin \cf7 0\cf0  -> \cf8 64263\cf0  bytes\
+ img/frog1.jpg                        | Bin \cf7 0\cf0  -> \cf8 220670\cf0  bytes\
+ img/frog2.jpg                        | Bin \cf7 0\cf0  -> \cf8 162114\cf0  bytes\
+ img/frog3.jpg                        | Bin \cf7 0\cf0  -> \cf8 179734\cf0  bytes\
+ img/frog4.jpg                        | Bin \cf7 0\cf0  -> \cf8 169369\cf0  bytes\
+ img/linkedin-logo-3.png              | Bin \cf7 0\cf0  -> \cf8 33375\cf0  bytes\
+ img/panda1.jpg                       | Bin \cf7 0\cf0  -> \cf8 209195\cf0  bytes\
+ img/panda2.jpg                       | Bin \cf7 0\cf0  -> \cf8 143957\cf0  bytes\
+ img/panda3.jpg                       | Bin \cf7 0\cf0  -> \cf8 148735\cf0  bytes\
+ img/plane1.jpg                       | Bin \cf7 0\cf0  -> \cf8 167498\cf0  bytes\
+ img/plane2.jpg                       | Bin \cf7 0\cf0  -> \cf8 149053\cf0  bytes\
+ img/plane3.jpg                       | Bin \cf7 0\cf0  -> \cf8 139787\cf0  bytes\
+ img/saurus1.jpg                      | Bin \cf7 0\cf0  -> \cf8 157810\cf0  bytes\
+ img/woman-hand-smartphone-desk1.jpg  | Bin \cf7 0\cf0  -> \cf8 219609\cf0  bytes\
+ index.html                           | 300 \cf8 ++++++++++++++++++++++\cf7 -------------\cf0 \
+ js/creative.js                       |  28 \cf8 ++\cf7 --\cf0 \
+ 45 files changed, 273 insertions(+), 151 deletions(-)\
+ create mode 100644 img/DARPA_Big_Data1.jpg\
+ create mode 100644 img/GitHub-Mark-120px-plus.png\
+ create mode 100644 img/GitHub-Mark-Light-120px-plus.png\
+ create mode 100644 img/In-White-121px-R.png\
+ create mode 100644 img/acer1-791027_960_720.jpg\
+ create mode 100644 img/box1.jpg\
+ create mode 100644 img/code1-1076533_960_720.jpg\
+ create mode 100644 img/crane1.jpg\
+ create mode 100644 img/crane2.jpg\
+ create mode 100644 img/crane3.jpg\
+ create mode 100644 img/crane4.jpg\
+ create mode 100644 img/cube1.jpg\
+ create mode 100644 img/cube2.jpg\
+ create mode 100644 img/cube3.jpg\
+ create mode 100644 img/dino1.jpg\
+ create mode 100644 img/dino2.jpg\
+ create mode 100644 img/dino3.jpg\
+ create mode 100644 img/eys-project1.png\
+ create mode 100644 img/eys-project2.png\
+ create mode 100644 img/eys-project2A.png\
+ create mode 100644 img/eys-project3.png\
+ create mode 100644 img/eys-project3A.png\
+ create mode 100644 img/eys-project4.png\
+ create mode 100644 img/eys-project4A.png\
+ create mode 100644 img/eys1.jpg\
+ create mode 100644 img/eys2.jpg\
+ create mode 100644 img/eys3.jpg\
+ create mode 100644 img/eys_IMG_0401_1024.jpg\
+ create mode 100644 img/frog1.jpg\
+ create mode 100644 img/frog2.jpg\
+ create mode 100644 img/frog3.jpg\
+ create mode 100644 img/frog4.jpg\
+ create mode 100644 img/linkedin-logo-3.png\
+ create mode 100644 img/panda1.jpg\
+ create mode 100644 img/panda2.jpg\
+ create mode 100644 img/panda3.jpg\
+ create mode 100644 img/plane1.jpg\
+ create mode 100644 img/plane2.jpg\
+ create mode 100644 img/plane3.jpg\
+ create mode 100644 img/saurus1.jpg\
+ create mode 100644 img/woman-hand-smartphone-desk1.jpg\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git push origin gh-pages \
+Total 0 (delta 0), reused 0 (delta 0)\
+To git@github.com:emilyyutschmidtling/portfolio-eys.git\
+   8dee9fa..f8df5f7  gh-pages -> gh-pages\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 gh-pages\cf0 \
+\cf5 $ \cf0 git checkout master\
+Switched to branch 'master'\
+Your branch is up-to-date with 'origin/master'.\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 \
+\cf9 \cb10   [Restored Oct 1, 2016, 1:58:29 PM]\cf0 \
+\cb1 Last login: Sat Oct  1 13:58:07 on console\
+Restored session: Sat Oct 1 13:44:56 PDT 2016\
+\cf2 \cb3  GA\cb0  General Assembly \cf0 \cb4  Web Development Immersive \cb1 \
+------------------------------------------\
+git version 2.9.1\
+Homebrew 0.9.9 (git revision 3820; last commit 2016-08-04) Homebrew/homebrew-core (git revision 9476; last commit 2016-08-04)\
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin15]\
+node v6.3.0\
+psql (PostgreSQL) 9.5.3\
+------------------------------------------\
+type 
+\f1\b unwelcome
+\f0\b0  to remove this message\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 \
+\cf9 \cb10   [Restored Oct 4, 2016, 10:25:29 AM]\cf0 \
+\cb1 Last login: Tue Oct  4 10:25:20 on console\
+Restored session: Tue Oct 4 10:21:27 PDT 2016\
+\cf2 \cb3  GA\cb0  General Assembly \cf0 \cb4  Web Development Immersive \cb1 \
+------------------------------------------\
+git version 2.9.1\
+Homebrew 0.9.9 (git revision 3820; last commit 2016-08-04) Homebrew/homebrew-core (git revision 9476; last commit 2016-08-04)\
+ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin15]\
+node v6.3.0\
+psql (PostgreSQL) 9.5.3\
+------------------------------------------\
+type 
+\f1\b unwelcome
+\f0\b0  to remove this message\
+\cf5 eyschmidtling\cf6  ~/code/wdi/workspace/outcomes/portfolio-eys\cf5  on \cf7 master\cf0 \
+\cf5 $ \cf0 \
+}
