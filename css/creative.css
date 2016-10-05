@@ -194,7 +194,7 @@ header .header-content {
 header .header-content .header-content-inner h1 {
   font-weight: 400;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 50px;
   margin-bottom: 0;
   font-size: 30px;
   padding-top: 50px;
@@ -214,6 +214,20 @@ header .header-content .header-content-inner p {
 .header-content h2{
   /*padding-bottom: 50px;*/
   /*text-transform: uppercase;*/
+}
+
+.screen {
+  position: relative;
+  margin: 50px auto 0;
+  height: 450px;
+  width: 90%;
+  background-image: url("../img/html-screenshot5.png");
+}
+
+.screen img {
+  width: 90%;
+  position: relative;
+  clip: inherit;
 }
 
 @media (min-width: 768px) {
