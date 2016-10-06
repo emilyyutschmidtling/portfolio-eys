@@ -1,6 +1,15 @@
 (function($) {
     "use strict"; // Start of use strict
 
+    $(function(){
+      $("#typed").typed({
+        stringsElement: $('#typed-strings'),
+        // typing speed
+        typeSpeed: 16
+      });
+    });
+
+
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);

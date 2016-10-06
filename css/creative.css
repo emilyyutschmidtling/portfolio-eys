@@ -12,7 +12,8 @@ body {
 }
 body {
   /*font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;*/
-  font-family: 'Oxygen', sans-serif;
+  /*font-family: 'Oxygen', sans-serif;*/
+  font-family: 'Walter Turncoat', cursive;
 }
 hr {
   border-color: #c9c6c8;
@@ -38,10 +39,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Oxygen', sans-serif;
+  /*font-family: 'Oxygen', sans-serif;*/
+  font-family: 'Walter Turncoat', cursive;
 }
 p {
-  font-size: 20px;
+  font-size: 23px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -193,7 +195,7 @@ header .header-content {
 }
 header .header-content .header-content-inner h1 {
   font-weight: 400;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   margin-top: 50px;
   margin-bottom: 0;
   font-size: 30px;
@@ -219,7 +221,7 @@ header .header-content .header-content-inner p {
 .screen {
   position: relative;
   margin: 50px auto 0;
-  height: 450px;
+  height: 350px;
   width: 90%;
   background-image: url("../img/html-screenshot5.png");
 }
@@ -227,7 +229,70 @@ header .header-content .header-content-inner p {
 .screen img {
   width: 90%;
   position: relative;
-  clip: inherit;
+}
+
+div.html-text {
+  font-family: monospace;
+  padding: 70px 0 0 210px;
+  text-align: left;
+  color: #cccccc;
+  font-size: 23px;
+}
+
+span.line-number1 {
+  padding-right: 25px;
+  font-size: 22px;
+}
+
+span.line-number2 {
+  padding-right: 50px;
+  font-size: 22px;
+}
+
+span.line-number3 {
+  padding-right: 75px;
+  font-size: 22px;
+}
+
+span.tag-color {
+  color: #cc00cc;
+}
+
+span.tag2-color {
+  color: #cc6633;
+}
+
+span.tag3-color {
+  color: #003399;
+}
+span.text-color {
+  color: #00ff00;
+}
+
+div.html-text p {
+  display: inline;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 1.5s infinite;
+    -moz-animation: blink 1.5s infinite;
+    animation: blink 1.5s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
 
 @media (min-width: 768px) {
