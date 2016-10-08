@@ -9,6 +9,23 @@
       });
     });
 
+    $(function() {
+      $(document).ready(function() {
+        $("#mainNav").hide()
+      })
+
+      $(function() {
+        var aboutPos = $('#about').offset().top;
+        $(window).scroll(function() {
+          if ($(this).scrollTop() > aboutPos) {
+            $('.navbar').fadeIn();
+          } else {
+            $('.navbar').fadeOut();
+          }
+        })
+      })
+    })
+
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {

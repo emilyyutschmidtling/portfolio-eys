@@ -163,9 +163,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  /*background-image: url('../img/origamiKeyboard11_IMG_2681_1024.jpg');*/
   text-align: center;
-  /*color: rgba(197, 22, 197, 1);*/
   color: #FBF6F7;
 }
 header .border-pics {
@@ -189,7 +187,7 @@ header .header-content {
   position: relative;
   display: block;
   text-align: center;
-  padding: 100px 15px 100px;
+  padding-top: 50px;
   /*min-height: 300px;*/
   /*background: rgba(255, 255, 255, 0.5);*/
 }
@@ -200,7 +198,6 @@ header .header-content .header-content-inner h1 {
   margin-bottom: 0;
   font-size: 30px;
   padding-top: 50px;
-  text-effect
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
@@ -221,38 +218,79 @@ header .header-content .header-content-inner p {
 .screen {
   position: relative;
   margin: 50px auto 0;
-  height: 350px;
-  width: 90%;
+  min-height: 350px;
+  max-width: 90%;
+  height: auto;
+  width: auto;
+  background-size: cover;
+  overflow-y: hidden;
   background-image: url("../img/html-screenshot5.png");
-}
-
-.screen img {
-  width: 90%;
-  position: relative;
+  /*-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;*/
 }
 
 div.html-text {
   font-family: monospace;
-  padding: 70px 0 0 210px;
+  padding: 6% 0 0 17%;
   text-align: left;
   color: #cccccc;
-  font-size: 23px;
+  font-size: 22px;
+  font-size: 1.8vw;
 }
 
+@media (max-width: 700px) {
+  div.html-text {
+    font-family: monospace;
+    padding: 8vh 0 0 17vw;
+    text-align: left;
+    color: #cccccc;
+    font-size: 22px;
+    font-size: 1.8vw;
+  }
+}
+
+@media (max-width: 600px) {
+  div.html-text {
+    font-family: monospace;
+    padding: 7vh 0 0 20vw;
+    text-align: left;
+    color: #cccccc;
+    font-size: 22px;
+    font-size: 1.8vw;
+  }
+}
+
+@media (max-width: 500px) {
+  div.html-text {
+    font-family: monospace;
+    padding: 6vh 0 0 25vw;
+    text-align: left;
+    color: #cccccc;
+    font-size: 22px;
+    font-size: 1.8vw;
+  }
+}
+
+
 span.line-number1 {
-  padding-right: 25px;
+  padding-right: 2vw;
   font-size: 22px;
+  font-size: 1.8vw;
 }
 
 span.line-number2 {
-  padding-right: 50px;
+  padding-right: 4vw;
   font-size: 22px;
+  font-size: 1.8vw;
 }
 
 span.line-number3 {
-  padding-right: 75px;
+  padding-right: 6vw;
   font-size: 22px;
+  font-size: 1.8vw;
 }
+
 
 span.tag-color {
   color: #cc00cc;
